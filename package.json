@@ -1,0 +1,26 @@
+{
+  "name": "jojokai",
+  "version": "1.0.0",
+  "description": "Monokai colorscheme for Vim, lightline.vim and buftabline",
+  "main": "src/build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clark-t/jojokai.git"
+  },
+  "keywords": [
+    "monokai"
+  ],
+  "author": "clark-t",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clark-t/jojokai/issues"
+  },
+  "homepage": "https://github.com/clark-t/jojokai#readme",
+  "devDependencies": {
+    "fs-extra": "^8.0.1"
+  }
+}
