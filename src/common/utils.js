@@ -10,7 +10,7 @@ const operation = {
 const keys = Object.keys(operation)
 
 function hi (group, style) {
-   return `hi ${group} ${
+   return `hi! ${group} ${
     keys
     .map(key => operation[key](style[key], key))
     .join(' ')
