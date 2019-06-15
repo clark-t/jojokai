@@ -29,7 +29,7 @@ const highlight = {
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
   VertSplit: { fg: c.darkgrey, bg: c.darkblack },
-  LineNr: { fg: c.grey, bg: c.lightblack },
+  LineNr: { fg: c.grey, bg: c.lightgrey },
   CursorLineNr: { fg: c.orange, bg: c.lightblack },
   SignColumn: { bg: c.lightblack },
 

@@ -26,7 +26,7 @@ hi MoreMsg guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#E73C50 ctermbg=196 gui=standout cterm=standout
 hi WarningMsg guifg=#E73C50 ctermfg=196 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#444444 ctermfg=238 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi LineNr guifg=#90908A ctermfg=246 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi LineNr guifg=#90908A ctermfg=246 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FD9720 ctermfg=208 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi SpellBad guifg=#E73C50 ctermfg=196 guibg=NONE ctermbg=NONE gui=underline cterm=underline
