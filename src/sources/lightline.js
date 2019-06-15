@@ -122,10 +122,17 @@ let palette = Object.keys(description).reduce((palette, mode) => {
 }, {})
 
 const file = `
-let s:p = ${
-  JSON.stringify(palette)
+let s:p = { ${Object.keys(palette).map(mode => `'${mode}': {}`).join(', ')} }
+${
+  Object.keys(palette).map(mode => {
+    return Object.keys(palette[mode]).map(place => {
+      return `let s:p.${mode}.${place} = ${JSON.stringify(palette[mode][place])}`
+    })
+    .join('\n')
+  })
+  .join('\n')
 }
-let g:lightline#colorscheme#${colorscheme}#palette = lightline#colorscheme#fill(s:p)
+let g:lightline#colorscheme#${colorscheme}#palette = lightline#colorscheme#flatten(s:p)
 `
 
 module.exports = {

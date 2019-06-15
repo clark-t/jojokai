@@ -10,7 +10,7 @@ const operation = {
 const keys = Object.keys(operation)
 
 function hi (group, style) {
-   return `hi! ${group} ${
+   return `hi ${group} ${
     keys
     .map(key => operation[key](style[key], key))
     .join(' ')
@@ -19,16 +19,18 @@ function hi (group, style) {
 
 function termstring (terms) {
   if (Array.isArray(terms)) {
-    return 'term=' + Array.from(new Set(terms)).join(',')
+    let val = Array.from(new Set(terms)).join(',')
+    return `gui=${val} cterm=${val}`
   }
-  return 'term=' + (terms || 'NONE')
+  let val = terms || 'NONE'
+  return `gui=${val} cterm=${val}`
 }
 
 function colorstring (color, type) {
   if (!color) {
     return `gui${type}=NONE cterm${type}=NONE`
   }
-  return Object.keys(color).map(key => `${key}${type}=${color[key]}`).join(' ')
+  return Object.keys(color).map(key => `${key}${type}=${color[key].toString().toUpperCase()}`).join(' ')
 }
 
 function getColorArray (color) {
