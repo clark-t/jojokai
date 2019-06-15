@@ -46,8 +46,8 @@ let description = {
   },
   insert: {
     left: [
-      [c.black, c.white],
-      [c.black, c.green],
+      [c.white, c.darkblue],
+      [c.black, c.aqua],
       [c.white, c.darkpurple]
     ],
     middle: [
@@ -56,7 +56,7 @@ let description = {
     ],
     right: [
       [c.white, c.darkblue],
-      [c.black, c.lightblue],
+      [c.black, c.aqua],
       [c.white, c.blue]
     ]
   },
