@@ -12,7 +12,7 @@ const dist = `colors/${colorscheme}.vim`
 
 const highlight = {
   Normal: { fg: c.white, bg: c.black},
-  ColorColumn: { bg: c.lightgrey, term: 'underline' },
+  ColorColumn: { bg: c.lightgrey, term: 'reverse' },
   Cursor: { bg: c.white},
   CursorColumn: { bg: c.lightgrey, term: 'reverse' },
   CursorLine: { bg: c.lightgrey },
@@ -29,7 +29,7 @@ const highlight = {
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
   VertSplit: { fg: c.darkgrey, bg: c.darkblack },
-  LineNr: { fg: c.grey, bg: c.lightblack },
+  LineNr: { fg: c.grey, bg: c.lightblack , term: 'underline' },
   CursorLineNr: { fg: c.orange, bg: c.lightblack },
   SignColumn: { bg: c.lightblack },
 

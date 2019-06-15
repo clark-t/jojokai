@@ -9,7 +9,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = 'jojokai'
 hi Normal guifg=#f8f8f2 ctermfg=252 guibg=#272822 ctermbg=235
-hi ColorColumn guibg=#383830 ctermbg=237 term=underline
+hi ColorColumn guibg=#383830 ctermbg=237 term=reverse
 hi Cursor guibg=#f8f8f2 ctermbg=252
 hi CursorColumn guibg=#383830 ctermbg=237 term=reverse
 hi CursorLine guibg=#383830 ctermbg=237
@@ -26,7 +26,7 @@ hi MoreMsg guifg=#e6db74 ctermfg=186
 hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#e73c50 ctermbg=196 term=standout
 hi WarningMsg guifg=#e73c50 ctermfg=196
 hi VertSplit guifg=#444444 ctermfg=238 guibg=#211f1c ctermbg=234
-hi LineNr guifg=#90908a ctermfg=246 guibg=#2d2e27 ctermbg=236
+hi LineNr guifg=#90908a ctermfg=246 guibg=#2d2e27 ctermbg=236 term=underline
 hi CursorLineNr guifg=#fd9720 ctermfg=208 guibg=#2d2e27 ctermbg=236
 hi SignColumn guibg=#2d2e27 ctermbg=236
 hi SpellBad guifg=#e73c50 ctermfg=196 term=underline
