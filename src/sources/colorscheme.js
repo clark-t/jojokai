@@ -12,7 +12,7 @@ const dist = `colors/${colorscheme}.vim`
 
 const highlight = {
   Normal: { fg: c.white, bg: c.black},
-  ColorColumn: { bg: c.lightgrey, term: 'reverse' },
+  ColorColumn: { bg: c.lightgrey },
   Cursor: { bg: c.white},
   CursorColumn: { bg: c.lightgrey, term: 'reverse' },
   CursorLine: { bg: c.lightgrey },
@@ -29,7 +29,7 @@ const highlight = {
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
   VertSplit: { fg: c.darkgrey, bg: c.darkblack },
-  LineNr: { fg: c.grey, bg: c.lightblack , term: 'underline' },
+  LineNr: { fg: c.grey, bg: c.lightblack },
   CursorLineNr: { fg: c.orange, bg: c.lightblack },
   SignColumn: { bg: c.lightblack },
 
@@ -123,7 +123,7 @@ const highlight = {
 
   // Buftabline
   // ---------
-  BufTabLineCurrent: { fg: c.orange, bg: c.black, term: 'underline' },
+  BufTabLineCurrent: { fg: c.orange, bg: c.black },
   BufTabLineActive: { fg: c.white, bg: c.darkgrey },
   BufTabLineHidden: { fg: c.grey, bg: c.lightgrey },
   BufTabLineFill: { bg: c.warmgrey },

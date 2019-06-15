@@ -9,7 +9,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = 'jojokai'
 hi Normal guifg=#F8F8F2 ctermfg=252 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
-hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383830 ctermbg=237 gui=reverse cterm=reverse
+hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#F8F8F2 ctermbg=252 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#383830 ctermbg=237 gui=reverse cterm=reverse
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
@@ -26,7 +26,7 @@ hi MoreMsg guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#E73C50 ctermbg=196 gui=standout cterm=standout
 hi WarningMsg guifg=#E73C50 ctermfg=196 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#444444 ctermfg=238 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi LineNr guifg=#90908A ctermfg=246 guibg=#2D2E27 ctermbg=236 gui=underline cterm=underline
+hi LineNr guifg=#90908A ctermfg=246 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FD9720 ctermfg=208 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi SpellBad guifg=#E73C50 ctermfg=196 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -76,7 +76,7 @@ hi Comment guifg=#75715E ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=it
 hi Underlined guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Ignore guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#E73C50 ctermfg=196 guibg=#5F0000 ctermbg=52 gui=NONE cterm=NONE
-hi BufTabLineCurrent guifg=#FD9720 ctermfg=208 guibg=#272822 ctermbg=235 gui=underline cterm=underline
+hi BufTabLineCurrent guifg=#FD9720 ctermfg=208 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi BufTabLineActive guifg=#F8F8F2 ctermfg=252 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi BufTabLineHidden guifg=#90908A ctermfg=246 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#75715E ctermbg=243 gui=NONE cterm=NONE
