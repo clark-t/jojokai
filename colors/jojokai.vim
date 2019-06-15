@@ -16,7 +16,7 @@ hi CursorLine guibg=#383830 ctermbg=237
 hi NonText guifg=#383830 ctermfg=237
 hi StatusLine guifg=#75715e ctermfg=243 guibg=#272822 ctermbg=235 term=reverse
 hi StatusLineNC guifg=#444444 ctermfg=238 guibg=#75715e ctermbg=243 term=reverse
-hi TabLine guifg=#f8f8f2 ctermfg=252 guibg=211f1c ctermbg=234 term=reverse
+hi TabLine guifg=#f8f8f2 ctermfg=252 guibg=#211f1c ctermbg=234 term=reverse
 hi Visual guibg=#383830 ctermbg=237
 hi Search guifg=#272822 ctermfg=235 guibg=#e6db74 ctermbg=186
 hi MatchParen guifg=#ae81ff ctermfg=141 term=underline,bold
@@ -25,7 +25,7 @@ hi ModeMsg guifg=#e6db74 ctermfg=186
 hi MoreMsg guifg=#e6db74 ctermfg=186
 hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#e73c50 ctermbg=196 term=standout
 hi WarningMsg guifg=#e73c50 ctermfg=196
-hi VertSplit guifg=#444444 ctermfg=238 guibg=211f1c ctermbg=234
+hi VertSplit guifg=#444444 ctermfg=238 guibg=#211f1c ctermbg=234
 hi LineNr guifg=#90908a ctermfg=246 guibg=#2d2e27 ctermbg=236
 hi CursorLineNr guifg=#fd9720 ctermfg=208 guibg=#2d2e27 ctermbg=236
 hi SignColumn guibg=#2d2e27 ctermbg=236
@@ -40,8 +40,8 @@ hi DiffAdd guifg=#d7ffaf ctermfg=193 guibg=#5f875f ctermbg=65
 hi DiffDelete guifg=#272822 ctermfg=235 guibg=#f75f5f ctermbg=167
 hi DiffChange guifg=#d7d7ff ctermfg=189 guibg=#5f5f87 ctermbg=60
 hi DiffText guifg=#272822 ctermfg=235 guibg=#66d9ef ctermbg=81
-hi Folded guifg=#75715e ctermfg=243 guibg=211f1c ctermbg=234
-hi FoldColumn guibg=211f1c ctermbg=234
+hi Folded guifg=#75715e ctermfg=243 guibg=#211f1c ctermbg=234
+hi FoldColumn guibg=#211f1c ctermbg=234
 hi Pmenu guifg=#2d2e27 ctermfg=236 guibg=#f8f8f2 ctermbg=252
 hi PmenuSel guifg=#66d9ef ctermfg=81 guibg=#272822 ctermbg=235 term=reverse,bold
 hi PmenuThumb guifg=#2d2e27 ctermfg=236 guibg=#90908a ctermbg=246

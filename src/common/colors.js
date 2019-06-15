@@ -7,7 +7,7 @@ const colors = {}
 
 colors.white = {gui: '#f8f8f2', cterm: 252}
 
-colors.darkblack = {gui: '211f1c', cterm: 234}
+colors.darkblack = {gui: '#211f1c', cterm: 234}
 colors.black = {gui: '#272822', cterm: 235}
 colors.lightblack = {gui: '#2D2E27', cterm: 236}
 colors.lightblack2 = {gui: '#383a3e', cterm: 237}
