@@ -62,7 +62,7 @@ let description = {
   },
   visual: {
     left: [
-      [c.white, c.pink],
+      [c.black, c.pink],
       [c.black, c.yellow],
       [c.white, c.darkpurple]
     ],
@@ -71,9 +71,9 @@ let description = {
       [c.white, c.orange]
     ],
     right: [
-      [c.white, c.pink],
+      [c.black, c.pink],
       [c.black, c.yellow],
-      [c.white, c.orange]
+      [c.black, c.orange]
     ]
   },
   replace: {
