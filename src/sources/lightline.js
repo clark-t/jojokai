@@ -73,7 +73,7 @@ let description = {
     right: [
       [c.white, c.pink],
       [c.black, c.yellow],
-      [c.white, c.darkpurple]
+      [c.white, c.orange]
     ]
   },
   replace: {
