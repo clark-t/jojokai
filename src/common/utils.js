@@ -23,6 +23,8 @@ function termstring (terms) {
     return `gui=${val} cterm=${val}`
   }
   let val = terms || 'NONE'
+  // remove italic for now
+  val = val.replace('italic', '').replace(/(^,|,$)/, '').replace(',,', ',')
   return `gui=${val} cterm=${val}`
 }
 
