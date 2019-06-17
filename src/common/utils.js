@@ -22,9 +22,12 @@ function termstring (terms) {
     let val = Array.from(new Set(terms)).join(',')
     return `gui=${val} cterm=${val}`
   }
-  let val = terms || 'NONE'
-  // remove italic for now
-  val = val.replace('italic', '').replace(/(^,|,$)/, '').replace(',,', ',')
+  let val = (terms || '')
+      .replace('italic', '')
+      .replace(/(^,|,$)/, '')
+      .replace(',,', ',')
+      || 'NONE'
+
   return `gui=${val} cterm=${val}`
 }
 
