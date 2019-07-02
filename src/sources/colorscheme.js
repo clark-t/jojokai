@@ -173,7 +173,7 @@ const highlight = {
   typescriptEndColons: { fg: c.white },
   typescriptObjectLabel: { fg: c.green },
   typescriptAmbientDeclaration: { fg: c.pink },
-
+  typescriptTestGlobal: { fg: c.pink },
   // Html
   htmlTag: { fg: c.white },
   htmlEndTag: { fg: c.white },
