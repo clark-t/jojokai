@@ -124,8 +124,8 @@ const highlight = {
   // Buftabline
   // ---------
   BufTabLineCurrent: { fg: c.orange, bg: c.black },
-  BufTabLineActive: { fg: c.white, bg: c.darkgrey },
-  BufTabLineHidden: { fg: c.grey, bg: c.lightgrey },
+  BufTabLineActive: { fg: c.white, bg: c.lightgrey },
+  BufTabLineHidden: { fg: c.black, bg: c.warmgrey },
   BufTabLineFill: { bg: c.warmgrey },
 
   // Syntastic

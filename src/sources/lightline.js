@@ -46,34 +46,34 @@ let description = {
   },
   insert: {
     left: [
-      [c.white, c.darkblue],
+      [c.darkblue, c.white],
       [c.black, c.aqua],
       [c.white, c.darkpurple]
     ],
     middle: [
-      [c.white, c.blue],
-      [c.white, c.blue]
+      [c.white, c.darkblue],
+      [c.white, c.darkblue]
     ],
     right: [
-      [c.white, c.darkblue],
-      [c.black, c.aqua],
-      [c.white, c.blue]
+      [c.darkblue, c.lightblue],
+      [c.white, c.blue],
+      [c.white, c.darkblue]
     ]
   },
   visual: {
     left: [
-      [c.black, c.pink],
-      [c.black, c.yellow],
+      [c.black, c.orange],
+      [c.white, c.darkgrey],
       [c.white, c.darkpurple]
     ],
     middle: [
-      [c.white, c.orange],
-      [c.white, c.orange]
+      [c.black, c.darkorange],
+      [c.black, c.darkorange]
     ],
     right: [
-      [c.black, c.pink],
-      [c.black, c.yellow],
-      [c.black, c.orange]
+      [c.black, c.orange],
+      [c.white, c.darkgrey],
+      [c.black, c.darkorange]
     ]
   },
   replace: {

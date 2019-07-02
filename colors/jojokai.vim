@@ -77,8 +77,8 @@ hi Underlined guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi Ignore guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#E73C50 ctermfg=196 guibg=#5F0000 ctermbg=52 gui=NONE cterm=NONE
 hi BufTabLineCurrent guifg=#FD9720 ctermfg=208 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
-hi BufTabLineActive guifg=#F8F8F2 ctermfg=252 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
-hi BufTabLineHidden guifg=#90908A ctermfg=246 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
+hi BufTabLineActive guifg=#F8F8F2 ctermfg=252 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
+hi BufTabLineHidden guifg=#272822 ctermfg=235 guibg=#75715E ctermbg=243 gui=NONE cterm=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#75715E ctermbg=243 gui=NONE cterm=NONE
 hi jpropertiesIdentifier guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommand guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
