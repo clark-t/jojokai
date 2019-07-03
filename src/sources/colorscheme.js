@@ -13,10 +13,12 @@ const dist = `colors/${colorscheme}.vim`
 const highlight = {
   Normal: { fg: c.white, bg: c.black},
   ColorColumn: { bg: c.lightgrey },
-  Cursor: { bg: c.white},
-  CursorColumn: { bg: c.lightgrey, term: 'reverse' },
-  CursorLine: { bg: c.lightgrey },
-  NonText: { fg: c.lightgrey },
+  Cursor: { bg: c.white },
+  // CursorColumn: { bg: c.lightgrey, term: 'reverse' },
+  CursorColumn: { bg: c.lightblack, term: 'reverse' },
+  CursorLine: { bg: c.lightblack },
+  // NonText: { fg: c.lightgrey },
+  NonText: { fg: c.lightgrey, bg: c.lightgrey },
   StatusLine: { fg: c.warmgrey, bg: c.black, term: 'reverse' },
   StatusLineNC: { fg: c.darkgrey, bg: c.warmgrey, term: 'reverse' },
   TabLine: { fg: c.white, bg: c.darkblack, term: 'reverse' },
@@ -28,10 +30,15 @@ const highlight = {
   MoreMsg: { fg: c.yellow },
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
-  VertSplit: { fg: c.darkgrey, bg: c.darkblack },
+  // VertSplit: { fg: c.darkgrey, bg: c.darkblack },
+  // VertSplit: { fg: c.lightgrey, bg: c.lightgrey },
+  VertSplit: { fg: c.darkblack, bg: c.darkblack },
   LineNr: { fg: c.grey, bg: c.lightgrey },
-  CursorLineNr: { fg: c.orange, bg: c.lightblack },
+  // CursorLineNr: { fg: c.orange, bg: c.lightblack },
+  CursorLineNr: { fg: c.orange, bg: c.lightgrey },
+  // CursorLineNr: { fg: c.orange, bg: c.black },
   SignColumn: { bg: c.lightblack },
+  // SignColumn: { bg: c.lightgrey },
 
   // spell
   SpellBad: { fg: c.red, term: 'underline' },
@@ -56,7 +63,7 @@ const highlight = {
   // Incsearch"
 
   // popup menu
-  Pmenu: { fg: c.lightblack, bg: c.white },
+  Pmenu: { fg: c.white, bg: c.darkgrey },
   PmenuSel: { fg: c.aqua, bg: c.black, term: 'reverse,bold' },
   PmenuThumb: { fg: c.lightblack, bg: c.grey },
   // PmenuSbar"
@@ -127,6 +134,11 @@ const highlight = {
   BufTabLineActive: { fg: c.white, bg: c.lightgrey },
   BufTabLineHidden: { fg: c.black, bg: c.warmgrey },
   BufTabLineFill: { bg: c.warmgrey },
+
+  // CoC.nvim
+  CocWarningSign: { fg: c.orange, bg: c.lightgrey },
+  CocInfoSign: { fg: c.yellow, bg: c.lightgrey },
+  CocErrorSign: { fg: c.red, term: 'standout', bg: c.lightgrey },
 
   // Syntastic
   // ---------

@@ -47,7 +47,7 @@ let description = {
   insert: {
     left: [
       [c.darkblue, c.white],
-      [c.black, c.aqua],
+      [c.white, c.blue],
       [c.white, c.darkpurple]
     ],
     middle: [
@@ -62,18 +62,20 @@ let description = {
   },
   visual: {
     left: [
-      [c.black, c.orange],
-      [c.white, c.darkgrey],
+      [c.darkred, c.orange],
+      [c.darkred, c.mediumorange],
+      // [c.white, c.darkgrey],
       [c.white, c.darkpurple]
     ],
     middle: [
-      [c.black, c.darkorange],
-      [c.black, c.darkorange]
+      [c.darkred, c.darkorange],
+      [c.darkred, c.darkorange]
     ],
     right: [
-      [c.black, c.orange],
-      [c.white, c.darkgrey],
-      [c.black, c.darkorange]
+      [c.darkred, c.orange],
+      [c.darkred, c.mediumorange],
+      // [c.white, c.darkgrey],
+      [c.darkred, c.darkorange]
     ]
   },
   replace: {
