@@ -89,7 +89,7 @@ const highlight = {
   Statement: { fg: c.pink },
   Operator: { fg: c.pink },
   Label: { fg: c.pink },
-  Keyword: { fg: c.aqua },
+  Keyword: { fg: c.pink },
   // Conditional"
   // Repeat"
   // Exception"
