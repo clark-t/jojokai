@@ -132,8 +132,8 @@ const highlight = {
   // ---------
   BufTabLineCurrent: { fg: c.orange, bg: c.black },
   BufTabLineActive: { fg: c.white, bg: c.lightgrey },
-  BufTabLineHidden: { fg: c.black, bg: c.warmgrey },
-  BufTabLineFill: { bg: c.warmgrey },
+  BufTabLineHidden: { fg: c.black, bg: c.grey },
+  BufTabLineFill: { bg: c.grey },
 
   // CoC.nvim
   CocWarningSign: { fg: c.orange, bg: c.lightgrey },
@@ -155,8 +155,10 @@ const highlight = {
   vimCommand: { fg: c.pink },
 
   // Javascript
+  jsClassKeyword: { fg: c.aqua, term: 'italic' },
+  jsGlobalObjects: { fg: c.aqua, term: 'italic' },
   jsFuncName: { fg: c.green },
-  jsThis: { fg: c.pink },
+  jsThis: { fg: c.orange, term: 'italic' },
   jsFunctionKey: { fg: c.green },
   jsPrototype: { fg: c.aqua },
   jsExceptions: { fg: c.aqua },
@@ -164,28 +166,46 @@ const highlight = {
   jsBuiltins: { fg: c.aqua },
   jsArgsObj: { fg: c.aqua },
   jsStatic: { fg: c.aqua },
-  jsSuper: { fg: c.aqua },
+  jsSuper: { fg: c.orange, term: 'italic' },
   jsFuncArgRest: { fg: c.purple, term: 'italic' },
   jsFuncArgs: { fg: c.orange, term: 'italic' },
-  jsStorageClass: { fg: c.aqua },
+  jsStorageClass: { fg: c.aqua, term: 'italic' },
   jsDocTags: { fg: c.aqua, term: 'italic' },
+  jsFunction: { fg: c.aqua, term: 'italic' },
 
   // Typescript
-  typescriptArrowFuncArg: { fg: c.orange, term: 'italic' },
-  typescriptFuncType: { fg: c.orange, term: 'italic' },
-  typescriptCall: { fg: c.orange, term: 'italic' },
-  typescriptVariable: { fg: c.aqua },
-  typescriptModule: { fg: c.aqua },
-  typescriptPredefinedType: { fg: c.aqua },
-  typescriptFuncTypeArrow: { fg: c.aqua },
-  typescriptImport: { fg: c.pink },
-  typescriptExport: { fg: c.pink },
-  typescriptCastKeyword: { fg: c.pink },
+  typescriptBraces: { fg: c.white },
+  typescriptParens: { fg: c.white },
   typescriptOperator: { fg: c.pink },
   typescriptEndColons: { fg: c.white },
-  typescriptObjectLabel: { fg: c.green },
+  typescriptModule: { fg: c.aqua },
+  typescriptPredefinedType: { fg: c.aqua },
+  typescriptImport: { fg: c.pink },
+  typescriptExport: { fg: c.pink },
+  typescriptIdentifier: { fg: c.orange, term: 'italic' },
+  typescriptVariable: { fg: c.aqua },
+  typescriptCastKeyword: { fg: c.pink },
   typescriptAmbientDeclaration: { fg: c.pink },
   typescriptTestGlobal: { fg: c.pink },
+  typescriptFuncKeyword: { fg: c.aqua },
+  typescriptFuncTypeArrow: { fg: c.aqua },
+  typescriptFuncType: { fg: c.orange, format: 'italic' },
+  typescriptFuncName: { fg: c.green },
+  typescriptArrowFuncArg: { fg: c.orange, term: 'italic' },
+  typescriptCall: { fg: c.orange, term: 'italic' },
+  typescriptClassKeyword: { fg: c.aqua, term: 'italic' },
+  typescriptClassName: { fg: c.white },
+  typescriptClassHeritage: { fg: c.white },
+  typescriptInterfaceKeyword: { fg: c.aqua, format: 'italic' },
+  typescriptInterfaceName: { fg: c.white },
+  typescriptObjectLabel: { fg: c.green },
+  typescriptMember: { fg: c.green },
+  typescriptTypeReference: { fg: c.purple, term: 'italic' },
+  typescriptTypeParameter: { fg: c.purple, term: 'italic' },
+  typescriptOptionalMark: { fg: c.pink },
+  tsxAttrib: { fg: c.green },
+  tsxTagName: { fg: c.pink },
+
   // Html
   htmlTag: { fg: c.white },
   htmlEndTag: { fg: c.white },
@@ -247,10 +267,11 @@ const highlight = {
 
   // c
   cLabel: { fg: c.pink },
-  cStructure: { fg: c.pink },
+  cStructure: { fg: c.aqua },
   cStorageClass: { fg: c.pink },
-  cInclude: { fg: c.green },
-  cDefine: { fg: c.green },
+  cInclude: { fg: c.pink },
+  cDefine: { fg: c.pink },
+  cSpecial: { fg: c.purple }
 }
 
 const file = `
