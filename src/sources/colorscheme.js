@@ -159,6 +159,7 @@ const highlight = {
   jsGlobalObjects: { fg: c.aqua, term: 'italic' },
   jsFuncName: { fg: c.green },
   jsThis: { fg: c.orange, term: 'italic' },
+  jsObjectKey: { fg: c.white },
   jsFunctionKey: { fg: c.green },
   jsPrototype: { fg: c.aqua },
   jsExceptions: { fg: c.aqua },
@@ -206,18 +207,42 @@ const highlight = {
   tsxAttrib: { fg: c.green },
   tsxTagName: { fg: c.pink },
 
-  // Html
+  // Dart
+  dartStorage: { fg: c.pink },
+  dartException: { fg: c.pink },
+  dartConditional: { fg: c.pink },
+  dartRepeat: { fg: c.pink },
+  dartTypedef: { fg: c.pink },
+  dartKeyword: { fg: c.pink },
+  dartConstant: { fg: c.purple },
+  dartBoolean: { fg: c.purple },
+  dartCoreType: { fg: c.aqua },
+  dartType: { fg: c.aqua },
+
+  // HTML
   htmlTag: { fg: c.white },
   htmlEndTag: { fg: c.white },
   htmlTagName: { fg: c.pink },
   htmlArg: { fg: c.green },
   htmlSpecialChar: { fg: c.purple },
 
-  // Xml
+  // XML
   xmlTag: { fg: c.pink },
   xmlEndTag: { fg: c.pink },
   xmlTagName: { fg: c.orange },
   xmlAttrib: { fg: c.green },
+
+  // JSX
+  jsxTag: { fg: c.white },
+  jsxCloseTag: { fg: c.white },
+  jsxCloseString: { fg: c.white },
+  jsxPunct: { fg: c.white },
+  jsxClosePunct: { fg: c.white },
+  jsxTagName: { fg: c.pink },
+  jsxComponentName: { fg: c.pink },
+  jsxAttrib: { fg: c.green },
+  jsxEqual: { fg: c.white },
+  jsxBraces: { fg: c.white },
 
   // CSS
   cssProp: { fg: c.yellow },
