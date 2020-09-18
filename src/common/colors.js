@@ -40,6 +40,7 @@ colors.darkred = {gui: '#5f0000', cterm: 52}
 
 colors.addfg = {gui: '#d7ffaf', cterm: 193}
 colors.addbg = {gui: '#5f875f', cterm: 65}
+colors.delfg = {gui: '#ff8b8b', cterm: 210}
 colors.delbg = {gui: '#f75f5f', cterm: 167}
 colors.changefg = {gui: '#d7d7ff', cterm: 189}
 colors.changebg = {gui: '#5f5f87', cterm: 60}

@@ -53,7 +53,7 @@ const highlight = {
 
   // diff
   DiffAdd: { fg: c.addfg, bg: c.addbg },
-  DiffDelete: { fg: c.black, bg: c.delbg },
+  DiffDelete: { fg: c.delfg, bg: c.delbg },
   DiffChange: { fg: c.changefg, bg: c.changebg },
   DiffText: { fg: c.black, bg: c.aqua },
 
@@ -296,7 +296,20 @@ const highlight = {
   cStorageClass: { fg: c.pink },
   cInclude: { fg: c.pink },
   cDefine: { fg: c.pink },
-  cSpecial: { fg: c.purple }
+  cSpecial: { fg: c.purple },
+
+  // markdown
+  markdownCode: { fg: c.purple, format: 'italic' },
+  markdownListMarker: { fg: c.purple },
+
+  // vim-notes
+  // notesTitle: { fg: c.aqua, format: 'bold' },
+  // notesAtxMarker: { fg: c.pink, format: 'italic,bold' },
+  // notesShortHeading: { fg: c.white, format: 'bold' },
+  // notesListBullet: { fg: c.purple },
+  // notesListNumber: { fg: c.purple, format: 'italic' },
+  // notesBold: { format: 'bold' },
+  // notesDoneMarker: { fg: c.green },
 }
 
 const file = `

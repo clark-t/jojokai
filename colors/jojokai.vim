@@ -37,7 +37,7 @@ hi SpecialKey guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi Title guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Directory guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#D7FFAF ctermfg=193 guibg=#5F875F ctermbg=65 gui=NONE cterm=NONE
-hi DiffDelete guifg=#272822 ctermfg=235 guibg=#F75F5F ctermbg=167 gui=NONE cterm=NONE
+hi DiffDelete guifg=#FF8B8B ctermfg=210 guibg=#F75F5F ctermbg=167 gui=NONE cterm=NONE
 hi DiffChange guifg=#D7D7FF ctermfg=189 guibg=#5F5F87 ctermbg=60 gui=NONE cterm=NONE
 hi DiffText guifg=#272822 ctermfg=235 guibg=#66D9EF ctermbg=81 gui=NONE cterm=NONE
 hi Folded guifg=#75715E ctermfg=243 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
@@ -181,3 +181,5 @@ hi cStorageClass guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cter
 hi cInclude guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cDefine guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cSpecial guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCode guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownListMarker guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
