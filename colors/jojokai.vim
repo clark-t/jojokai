@@ -29,6 +29,7 @@ hi VertSplit guifg=#211F1C ctermfg=234 guibg=#211F1C ctermbg=234 gui=NONE cterm=
 hi LineNr guifg=#90908A ctermfg=246 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FD9720 ctermfg=208 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi Conseal guifg=#F8F8F2 ctermfg=252 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi SpellBad guifg=#E73C50 ctermfg=196 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellCap guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellRare guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -40,6 +41,11 @@ hi DiffAdd guifg=#D7FFAF ctermfg=193 guibg=#5F875F ctermbg=65 gui=NONE cterm=NON
 hi DiffDelete guifg=#FF8B8B ctermfg=210 guibg=#F75F5F ctermbg=167 gui=NONE cterm=NONE
 hi DiffChange guifg=#D7D7FF ctermfg=189 guibg=#5F5F87 ctermbg=60 gui=NONE cterm=NONE
 hi DiffText guifg=#272822 ctermfg=235 guibg=#66D9EF ctermbg=81 gui=NONE cterm=NONE
+hi diffAdded guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffFile guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffIndexLine guifg=#75715E ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffRemoved guifg=#E73C50 ctermfg=196 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffSuname guifg=#75715E ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#75715E ctermfg=243 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
 hi Pmenu guifg=#F8F8F2 ctermfg=252 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
@@ -200,3 +206,4 @@ hi cDefine guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cSpecial guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCode guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownListMarker guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCodeDelimiter guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

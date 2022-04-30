@@ -38,6 +38,7 @@ const highlight = {
   CursorLineNr: { fg: c.orange, bg: c.lightgrey },
   // CursorLineNr: { fg: c.orange, bg: c.black },
   SignColumn: { bg: c.lightblack },
+  Conseal: { fg: c.white, bg: c.black },
   // SignColumn: { bg: c.lightgrey },
 
   // spell
@@ -56,6 +57,11 @@ const highlight = {
   DiffDelete: { fg: c.delfg, bg: c.delbg },
   DiffChange: { fg: c.changefg, bg: c.changebg },
   DiffText: { fg: c.black, bg: c.aqua },
+  diffAdded: { fg: c.green },
+  diffFile: { fg: c.aqua },
+  diffIndexLine: { fg: c.warmgrey },
+  diffRemoved: { fg: c.red },
+  diffSuname: { fg: c.warmgrey },
 
   // fold
   Folded: { fg: c.warmgrey, bg: c.darkblack },
@@ -320,6 +326,7 @@ const highlight = {
   // markdown
   markdownCode: { fg: c.purple, format: 'italic' },
   markdownListMarker: { fg: c.purple },
+  markdownCodeDelimiter: { fg: c.purple },
 
   // vim-notes
   // notesTitle: { fg: c.aqua, format: 'bold' },
