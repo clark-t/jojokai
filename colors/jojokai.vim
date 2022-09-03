@@ -89,6 +89,7 @@ hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#90908A ctermbg=246 gui=NONE cte
 hi CocWarningSign guifg=#FD9720 ctermfg=208 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi CocInfoSign guifg=#E6DB74 ctermfg=186 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi CocErrorSign guifg=#E73C50 ctermfg=196 guibg=#383830 ctermbg=237 gui=standout cterm=standout
+hi CocMenuSel guifg=#272822 ctermfg=235 guibg=#E6DB74 ctermbg=186 gui=NONE cterm=NONE
 hi jpropertiesIdentifier guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommand guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

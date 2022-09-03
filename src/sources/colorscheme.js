@@ -145,6 +145,7 @@ const highlight = {
   CocWarningSign: { fg: c.orange, bg: c.lightgrey },
   CocInfoSign: { fg: c.yellow, bg: c.lightgrey },
   CocErrorSign: { fg: c.red, term: 'standout', bg: c.lightgrey },
+  CocMenuSel: { fg: c.black, bg: c.yellow },
 
   // Syntastic
   // ---------
