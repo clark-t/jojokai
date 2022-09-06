@@ -145,7 +145,7 @@ const highlight = {
   CocWarningSign: { fg: c.orange, bg: c.lightgrey },
   CocInfoSign: { fg: c.yellow, bg: c.lightgrey },
   CocErrorSign: { fg: c.red, term: 'standout', bg: c.lightgrey },
-  CocMenuSel: { fg: c.black, bg: c.yellow },
+  CocMenuSel: { bg: c.changebg },
 
   // Syntastic
   // ---------
@@ -211,16 +211,21 @@ const highlight = {
   typescriptEnumKeyword: { fg: c.aqua, format: 'italic' },
   typescriptEnum: { fg: c.green },
   typescriptInterfaceName: { fg: c.green },
-  typescriptObjectLabel: { fg: c.green },
-  typescriptMember: { fg: c.green },
+  typescriptObjectLabel: { fg: c.orange },
+  typescriptMember: { fg: c.orange },
   typescriptRegexpString: { fg: c.purple, term: 'italic' },
   typescriptTypeReference: { fg: c.purple, term: 'italic' },
   typescriptTypeParameter: { fg: c.purple, term: 'italic' },
   typescriptPredefinedType: { fg: c.aqua },
   typescriptOptionalMark: { fg: c.pink },
-  typescriptTernary: { fg: c.pink },
+  typescriptRestOrSpread: { fg: c.pink },
+  typescriptVariableDeclaration: { fg: c.green },
+  // typescriptTernaryOp: { fg: c.pink },
+  // typescriptDotNotation: { fg: c.pink },
   tsxAttrib: { fg: c.green },
   tsxTagName: { fg: c.pink },
+  tsxCloseTag: { fg: c.purple },
+  tsxCloseString: { fg: c.purple },
 
   // Dart
   dartStorage: { fg: c.pink },
@@ -325,9 +330,9 @@ const highlight = {
   cSpecial: { fg: c.purple },
 
   // markdown
-  markdownCode: { fg: c.purple, format: 'italic' },
+  markdownCode: { fg: c.aqua, format: 'italic' },
   markdownListMarker: { fg: c.purple },
-  markdownCodeDelimiter: { fg: c.purple },
+  markdownCodeDelimiter: { fg: c.aqua },
 
   // vim-notes
   // notesTitle: { fg: c.aqua, format: 'bold' },
