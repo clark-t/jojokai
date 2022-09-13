@@ -65,7 +65,7 @@ export const NodeView = ({ className = '', style }) => {
   var num = 123456789
   const bool = true || (false && !!NaN && Infinity)
   const str = 'hello'
-  const member = obj1.a?.b.c?.()
+  const member = obj1.a?.b.c?.(no)(!num)
   const san = obj1 ? obj2 : obj3()
   const obj = {
     a: 1,
@@ -74,10 +74,10 @@ export const NodeView = ({ className = '', style }) => {
       d: 123,
     },
     [num]: str,
-    ...obj3,
+    ...obj3
   }
 
-  const arr = [1, 'true', false, ...rest]
+  const arr = [1, 'true', false, num, ...rest]
 
   let fn = ({ a: aa, b: bb }) => {
     const { c: cc } = aa

@@ -7,6 +7,32 @@ const Root = styled.div`
   padding: 1px;
   width: ${width}px;
 `
+
+export type Num = 1 | 2 | 3
+export interface ClassNum {
+  num?: Record<string, number>
+  string: '1' | '2' | '3'
+}
+
+function fn2<T extends 1 | 2 | 3>(arg: T) {
+  console.log(arg)
+}
+
+fn2(3)
+
+const fn = async <T extends string>(arg: T) => {
+  console.log(arg)
+}
+
+
+const fn3 = function <T extends number[]>(arg: T): void {
+  console.log(arg)
+}
+
+// const fn4 = <T extends number[]>(arg: T): void => {
+//   console.log(arg)
+// }
+
 window.addEventListener('error', (e: any) => {
   if (isNaN(e)) {
     console.error('sad')
@@ -74,7 +100,7 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
   var num: number = 123456789 as const
   const bool = true || (false && !!NaN && Infinity)
   const str = 'hello' as any
-  const member = obj1.a?.b!.c?.()
+  const member = obj1.a?.b!.c?.(no).e!(no!)
   const san = !obj1 ? obj2 : obj3()
   const obj = {
     a: 1,
