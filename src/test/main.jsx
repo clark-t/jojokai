@@ -63,7 +63,7 @@ export const NodeView = ({ className = '', style }) => {
 
   var no = undefined ?? null
   var num = 123456789
-  const bool = true || (false && !!NaN)
+  const bool = true || (false && !!NaN && Infinity)
   const str = 'hello'
   const member = obj1.a?.b.c?.()
   const san = obj1 ? obj2 : obj3()

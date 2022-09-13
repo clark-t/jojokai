@@ -69,9 +69,10 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
   const [state, setState] = useState(0)
   const { ob: obj1, obj2, ...obj3 } = {} as any
 
+  var nnn = NaN
   var no: null = undefined ?? null
   var num: number = 123456789 as const
-  const bool = true || (false && NaN)
+  const bool = true || (false && !!NaN && Infinity)
   const str = 'hello' as any
   const member = obj1.a?.b!.c?.()
   const san = !obj1 ? obj2 : obj3()
@@ -85,7 +86,7 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
     ...obj3,
   }
 
-  const arr = [1, 2, ...obj]
+  const arr = [1, 2, nnn, ...obj]
 
   let fn = ({ a: aa, b: bb }: { a: string; b: number }) => {
     const { c: cc } = aa as any

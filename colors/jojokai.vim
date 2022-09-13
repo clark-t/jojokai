@@ -140,11 +140,13 @@ hi typescriptAmbientDeclaration guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NON
 hi typescriptTestGlobal guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncTypeArrow guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptFuncType guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptFuncType guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptParenExp guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncComma guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptArrowFuncArg guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptCall guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptArrowFuncArg guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptCall guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptFuncCallArg guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassHeritage guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -163,7 +165,7 @@ hi typescriptMemberOptionality guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE
 hi typescriptRestOrSpread guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptObjectSpread guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptVariableDeclaration guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptDestructureLabel guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptDestructureLabel guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptNull guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptDefaultParam guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxAttrib guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
