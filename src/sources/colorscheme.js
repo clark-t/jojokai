@@ -190,7 +190,7 @@ const highlight = {
   jsSpreadExpression: { fg: c.green },
   jsRegexpString: { fg: c.purple },
   jsExportDefault: { fg: c.pink },
-  jsParen: { fg: c.orange },
+  // jsParen: { fg: c.white },
   // Typescript
   typescriptGlobal: { fg: c.purple, term: 'italic' },
   typescriptBraces: { fg: c.white },
@@ -219,7 +219,7 @@ const highlight = {
   typescriptFuncComma: { fg: c.white },
   typescriptArrowFuncArg: { fg: c.green, term: 'italic' },
   typescriptCall: { fg: c.green, term: 'italic' },
-  typescriptFuncCallArg: { fg: c.orange },
+  // typescriptFuncCallArg: { fg: c.white },
   typescriptClassKeyword: { fg: c.aqua, term: 'italic' },
   typescriptClassName: { fg: c.green },
   typescriptClassHeritage: { fg: c.white },
