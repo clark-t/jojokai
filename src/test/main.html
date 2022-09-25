@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div class="root"></div>
+    <script>
+function hello(arg) {
+  console.log('--- what --')
+  console.log(arg)
+
+  const obj = {
+    a: 1,
+    b: 2,
+  }
+  console.log(obj.a)
+}
+window.addEventListener('error', (e) => {
+  hello(arg)
+})
+    </script>
+  </body>
+</html>

@@ -71,7 +71,7 @@ export class TestClass extends Array {
     super(args)
   }
 
-  a() {
+  get a() {
     return this.prop
   }
 

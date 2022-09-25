@@ -97,7 +97,7 @@ hi jsClassProperty guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE ct
 hi jsGlobalObjects guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsThis guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsObjectKey guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectKey guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFunctionKey guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsPrototype guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsExceptions guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -106,7 +106,7 @@ hi jsBuiltins guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi jsStatic guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsSuper guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncArgRest guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsFuncArgs guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncArgs guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncCall guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsStorageClass guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsDocTags guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -141,11 +141,11 @@ hi typescriptAmbientDeclaration guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NON
 hi typescriptTestGlobal guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncTypeArrow guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptFuncType guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptFuncType guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncComma guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptArrowFuncArg guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptCall guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptArrowFuncArg guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptCall guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassHeritage guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -153,7 +153,7 @@ hi typescriptInterfaceKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE g
 hi typescriptEnumKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptEnum guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptInterfaceName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptObjectLabel guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptObjectLabel guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMember guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptRegexpString guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeReference guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -167,7 +167,9 @@ hi typescriptVariableDeclaration guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NO
 hi typescriptDestructureLabel guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptNull guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptDefaultParam guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tsxAttrib guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptAliasKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptMethodAccessor guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsxAttrib guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxTagName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxCloseTag guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxCloseString guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -197,7 +199,7 @@ hi jsxPunct guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi jsxClosePunct guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxTagName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxComponentName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsxAttrib guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxAttrib guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxEqual guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxBraces guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssProp guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
