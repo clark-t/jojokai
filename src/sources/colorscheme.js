@@ -246,10 +246,11 @@ const highlight = {
   // typescriptDefault: { fg: c.pink },
   // typescriptTernaryOp: { fg: c.pink },
   // typescriptDotNotation: { fg: c.pink },
+  tsxTag: { fg: c.pink },
   tsxAttrib: { fg: c.aqua },
   tsxTagName: { fg: c.pink },
-  tsxCloseTag: { fg: c.purple },
-  tsxCloseString: { fg: c.purple },
+  tsxCloseTag: { fg: c.pink },
+  tsxCloseString: { fg: c.pink },
 
   // Dart
   dartStorage: { fg: c.pink },

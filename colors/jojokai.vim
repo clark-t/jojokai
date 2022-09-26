@@ -169,10 +169,11 @@ hi typescriptNull guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cter
 hi typescriptDefaultParam guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptAliasKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMethodAccessor guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsxTag guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxAttrib guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxTagName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tsxCloseTag guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tsxCloseString guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsxCloseTag guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsxCloseString guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi dartStorage guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi dartException guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi dartConditional guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
