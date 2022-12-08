@@ -138,8 +138,8 @@ const highlight = {
   // ---------
   BufTabLineCurrent: { fg: c.orange, bg: c.black },
   BufTabLineActive: { fg: c.white, bg: c.lightgrey },
-  BufTabLineHidden: { fg: c.black, bg: c.grey },
-  BufTabLineFill: { bg: c.grey },
+  BufTabLineHidden: { fg: c.warmgrey, bg: c.darkblack },
+  BufTabLineFill: { bg: c.darkblack },
 
   // CoC.nvim
   CocWarningSign: { fg: c.orange, bg: c.lightgrey },
