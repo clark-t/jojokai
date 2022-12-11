@@ -14,10 +14,8 @@ const highlight = {
   Normal: { fg: c.white, bg: c.black},
   ColorColumn: { bg: c.lightgrey },
   Cursor: { bg: c.white },
-  // CursorColumn: { bg: c.lightgrey, term: 'reverse' },
   CursorColumn: { bg: c.lightblack, term: 'reverse' },
   CursorLine: { bg: c.lightblack },
-  // NonText: { fg: c.lightgrey },
   NonText: { fg: c.lightgrey, bg: c.lightgrey },
   StatusLine: { fg: c.warmgrey, bg: c.black, term: 'reverse' },
   StatusLineNC: { fg: c.darkgrey, bg: c.warmgrey, term: 'reverse' },
@@ -30,16 +28,11 @@ const highlight = {
   MoreMsg: { fg: c.yellow },
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
-  // VertSplit: { fg: c.darkgrey, bg: c.darkblack },
-  // VertSplit: { fg: c.lightgrey, bg: c.lightgrey },
   VertSplit: { fg: c.darkblack, bg: c.darkblack },
-  LineNr: { fg: c.grey, bg: c.lightgrey },
-  // CursorLineNr: { fg: c.orange, bg: c.lightblack },
+  LineNr: { fg: c.warmgrey, bg: c.lightgrey },
   CursorLineNr: { fg: c.orange, bg: c.lightgrey },
-  // CursorLineNr: { fg: c.orange, bg: c.black },
   SignColumn: { bg: c.lightblack },
   Conseal: { fg: c.white, bg: c.black },
-  // SignColumn: { bg: c.lightgrey },
 
   // spell
   SpellBad: { fg: c.red, term: 'underline' },
@@ -160,6 +153,25 @@ const highlight = {
 
   // Vim command
   vimCommand: { fg: c.pink },
+  vimSep: { fg: c.white },
+  vimParenSep: { fg: c.white },
+  vimFuncName: { fg: c.purple },
+  vimFuncVar: { fg: c.orange },
+  vimFunction: { fg: c.green },
+  vimVar: { fg: c.white },
+  vimSpecialVar: { fg: c.purple },
+  vimVarPrefix: { fg: c.purple },
+  vimLet: { fg: c.aqua },
+  vimVarDeclear: { fg: c.green },
+
+  // vim-notes
+  // notesTitle: { fg: c.aqua, format: 'bold' },
+  // notesAtxMarker: { fg: c.pink, format: 'italic,bold' },
+  // notesShortHeading: { fg: c.white, format: 'bold' },
+  // notesListBullet: { fg: c.purple },
+  // notesListNumber: { fg: c.purple, format: 'italic' },
+  // notesBold: { format: 'bold' },
+  // notesDoneMarker: { fg: c.green },
 
   // Javascript
   jsClassKeyword: { fg: c.aqua, term: 'italic' },
@@ -360,14 +372,6 @@ const highlight = {
   markdownListMarker: { fg: c.purple },
   markdownCodeDelimiter: { fg: c.aqua },
 
-  // vim-notes
-  // notesTitle: { fg: c.aqua, format: 'bold' },
-  // notesAtxMarker: { fg: c.pink, format: 'italic,bold' },
-  // notesShortHeading: { fg: c.white, format: 'bold' },
-  // notesListBullet: { fg: c.purple },
-  // notesListNumber: { fg: c.purple, format: 'italic' },
-  // notesBold: { format: 'bold' },
-  // notesDoneMarker: { fg: c.green },
 }
 
 const file = `

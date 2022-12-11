@@ -63,4 +63,3 @@ hi def link typescriptOptionalDotNotation typescriptMemberOptionality
 hi def link typescriptInferKeyword typescriptConstraint
 hi def link typescriptTypeConstKeyword typescriptPredefinedType
 
-let g:helloworld = 1

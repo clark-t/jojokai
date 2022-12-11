@@ -26,7 +26,7 @@ hi MoreMsg guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#E73C50 ctermbg=196 gui=standout cterm=standout
 hi WarningMsg guifg=#E73C50 ctermfg=196 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#211F1C ctermfg=234 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi LineNr guifg=#90908A ctermfg=246 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
+hi LineNr guifg=#75715E ctermfg=243 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FD9720 ctermfg=208 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi Conseal guifg=#F8F8F2 ctermfg=252 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
@@ -92,6 +92,16 @@ hi CocErrorSign guifg=#E73C50 ctermfg=196 guibg=#383830 ctermbg=237 gui=standout
 hi CocMenuSel guifg=NONE ctermfg=NONE guibg=#5F5F87 ctermbg=60 gui=NONE cterm=NONE
 hi jpropertiesIdentifier guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommand guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimSep guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimParenSep guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimFuncName guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimFuncVar guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimFunction guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimVar guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimSpecialVar guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimVarPrefix guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimLet guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimVarDeclear guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassProperty guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsGlobalObjects guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
