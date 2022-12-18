@@ -13,7 +13,7 @@ and I use the same color to generate a lightline.vim colorscheme and a buftablin
 
 Add this colorscheme to .vimrc
 
-```vimscript
+```vim
 " Vundle
 Plugin 'clark-t/jojokai'
 
@@ -23,14 +23,14 @@ Plug 'clark-t/jojokai'
 
 then set colorscheme to jojokai:
 
-```vimscript
+```vim
 colorscheme jojokai
 ```
 
 If you use lightline.vim, then set lightline.vim's colorscheme to
 jojokai:
 
-```vimscript
+```vim
 let g:lightline = { 'colorscheme': 'jojokai' }
 ```
 

@@ -120,7 +120,7 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
     console.log(bb)
   }
 
-  const regex = /abc/gi
+  const regex = /^a\s.*[^abc\/]+([de\w]f|\w){1,2}(?=anc)(?!def)bc$/gi
 
   try {
     const json = JSON.parse('{}')
@@ -131,6 +131,7 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
     // @TODO
     // @ts-check
     //
+    /* @TODO */
   }
 
   for (let item of []) {
@@ -142,6 +143,14 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
       break
     }
   }
+
+  const sub = (
+    <div>
+      <ul>
+        <li>{'hello'}</li>
+      </ul>
+    </div>
+  )
 
   while (false) {}
 
@@ -159,7 +168,19 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
         <div className={className} style={style} {...obj}>
           {'Hello World' + !!state}
         </div>
-        <img style={{ color: 'read' }} src="https://www.baidu.com" />
+        <div>{arr.map(item => <li>{`item: ${item}`}</li>)}</div>
+        <div>{arr.map(item => {
+          let val = item?.b == 'hello' ? 'a' + 1 : 'b'
+          return <li>{val}</li>
+        })}</div>
+        <img
+          style={{ color: 'read' }}
+          src="https://www.baidu.com"
+          onLoad={(e) => {
+            console.log('image is loaded', e)
+          }}
+        />
+        {sub}
       </Root>
     </>
   )

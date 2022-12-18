@@ -166,6 +166,12 @@ hi typescriptInterfaceName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui
 hi typescriptObjectLabel guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMember guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptRegexpString guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptRegexpGroup guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptRegexpOr guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptRegexpBoundary guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptRegexpQuantifier guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptRegexpMod guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptRegexpCharClass guifg=#E6DB74 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeReference guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeParameter guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptPredefinedType guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -203,10 +209,9 @@ hi xmlTag guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlEndTag guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagName guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlAttrib guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsxTag guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsxCloseTag guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsxCloseString guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsxPunct guifg=#F8F8F2 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxTag guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxEndTag guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxPunct guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxClosePunct guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxTagName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxComponentName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -243,3 +248,8 @@ hi cSpecial guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi markdownCode guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownListMarker guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goBuiltins guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goVarDefs guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goParamName guifg=#FD9720 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goParamType guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goTypeName guifg=#A6E22B ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

@@ -58,6 +58,8 @@ syntax match typescriptOptionalDotNotation contained containedin=typescriptProp 
 
 syntax region typescriptFuncCallArg contained matchgroup=typescriptParens start=/(/ end=/)/ contains=@typescriptValue,@typescriptComments,typescriptCastKeyword,typescriptFuncComma nextgroup=@typescriptSymbols,typescriptDotNotation skipwhite skipempty skipnl
 
+syntax match typescriptCommentTodo /@\zsTODO\ze/ contained containedin=tsxBlockComment
+
 hi def link typescriptObjectMethodAccessor typescriptVariable
 hi def link typescriptOptionalDotNotation typescriptMemberOptionality
 hi def link typescriptInferKeyword typescriptConstraint

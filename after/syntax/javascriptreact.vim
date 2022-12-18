@@ -5,3 +5,4 @@ syntax keyword jsBuiltins
       \ clearTimeout
       \ clearInterval
 
+syntax match jsSpreadOperator /\.\.\./ contained containedin=jsDot

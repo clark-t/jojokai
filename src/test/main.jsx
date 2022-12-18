@@ -85,7 +85,7 @@ export const NodeView = ({ className = '', style }) => {
     console.log(bb)
   }
 
-  const regex = /abc/gi
+  const regex = /^a\s.*[^abc]+([de\w]f|\w){1,2}(?=abc)(?!def)bc$/gi
 
   try {
     const json = JSON.parse('{}')
@@ -108,6 +108,14 @@ export const NodeView = ({ className = '', style }) => {
     }
   }
 
+  const sub = (
+    <div>
+      <ul>
+        <li>{'hello'}</li>
+      </ul>
+    </div>
+  )
+
   while (false) {}
 
   do {} while (false)
@@ -120,10 +128,23 @@ export const NodeView = ({ className = '', style }) => {
   return (
     <>
       <Root>
+        {/* @TODO what */}
         <div className={className} style={style} {...obj}>
           {'Hello World' + !!state}
         </div>
-        <img src="https://www.baidu.com" />
+        <div>{arr.map(item => <li>{`item: ${item}`}</li>)}</div>
+        <div>{arr.map(item => {
+          let val = item?.b == 'hello' ? 'a' + 1 : 'b'
+          return (<li>{val}</li>);
+        })}</div>
+        <img
+          style={{ color: 'read' }}
+          src="https://www.baidu.com"
+          onLoad={(e) => {
+            console.log('image is loaded', e)
+          }}
+        />
+        {sub}
       </Root>
     </>
   )

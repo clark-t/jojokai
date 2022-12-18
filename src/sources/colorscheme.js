@@ -242,6 +242,12 @@ const highlight = {
   typescriptObjectLabel: { fg: c.green },
   typescriptMember: { fg: c.green },
   typescriptRegexpString: { fg: c.purple, term: 'italic' },
+  typescriptRegexpGroup: { fg: c.purple, term: 'italic' },
+  typescriptRegexpOr: { fg: c.pink, term: 'italic' },
+  typescriptRegexpBoundary: { fg: c.pink, term: 'italic' },
+  typescriptRegexpQuantifier: { fg: c.pink, term: 'italic' },
+  typescriptRegexpMod: { fg: c.pink, term: 'italic' },
+  typescriptRegexpCharClass: { fg: c.yellow, term: 'italic' },
   typescriptTypeReference: { fg: c.purple, term: 'italic' },
   typescriptTypeParameter: { fg: c.purple, term: 'italic' },
   typescriptPredefinedType: { fg: c.aqua },
@@ -290,11 +296,12 @@ const highlight = {
   xmlAttrib: { fg: c.green },
 
   // JSX
-  jsxTag: { fg: c.white },
-  jsxCloseTag: { fg: c.purple },
-  jsxCloseString: { fg: c.purple },
-  jsxPunct: { fg: c.white },
-  jsxClosePunct: { fg: c.white },
+  jsxTag: { fg: c.pink },
+  jsxEndTag: { fg: c.pink },
+  // jsxCloseTag: { fg: c.purple },
+  // jsxCloseString: { fg: c.purple },
+  jsxPunct: { fg: c.pink },
+  jsxClosePunct: { fg: c.pink },
   jsxTagName: { fg: c.pink },
   jsxComponentName: { fg: c.pink },
   jsxAttrib: { fg: c.aqua },
@@ -372,6 +379,13 @@ const highlight = {
   markdownListMarker: { fg: c.purple },
   markdownCodeDelimiter: { fg: c.aqua },
 
+  // golang
+  goBuiltins: { fg: c.purple },
+  // goField: { fg: c.white },
+  goVarDefs: { fg: c.green },
+  goParamName: { fg: c.orange },
+  goParamType: { fg: c.purple },
+  goTypeName: { fg: c.green },
 }
 
 const file = `
