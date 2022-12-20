@@ -12,15 +12,15 @@ const dist = `colors/${colorscheme}.vim`
 
 const highlight = {
   Normal: { fg: c.white, bg: c.black},
-  ColorColumn: { bg: c.lightgrey },
+  ColorColumn: { bg: c.black237 },
   Cursor: { bg: c.white },
-  CursorColumn: { bg: c.lightblack, term: 'reverse' },
-  CursorLine: { bg: c.lightblack },
-  NonText: { fg: c.lightgrey, bg: c.lightgrey },
-  StatusLine: { fg: c.warmgrey, bg: c.black, term: 'reverse' },
-  StatusLineNC: { fg: c.darkgrey, bg: c.warmgrey, term: 'reverse' },
-  TabLine: { fg: c.white, bg: c.darkblack, term: 'reverse' },
-  Visual: { bg: c.lightgrey },
+  CursorColumn: { bg: c.black236, term: 'reverse' },
+  CursorLine: { bg: c.black236 },
+  NonText: { fg: c.black237, bg: c.black237 },
+  StatusLine: { fg: c.grey243, bg: c.black, term: 'reverse' },
+  StatusLineNC: { fg: c.gren238, bg: c.grey243, term: 'reverse' },
+  TabLine: { fg: c.white, bg: c.black234, term: 'reverse' },
+  Visual: { bg: c.black237 },
   Search: { fg: c.black, bg: c.yellow },
   MatchParen: { fg: c.purple, term: 'underline,bold' },
   Question: { fg: c.yellow },
@@ -28,10 +28,10 @@ const highlight = {
   MoreMsg: { fg: c.yellow },
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
-  VertSplit: { fg: c.darkblack, bg: c.darkblack },
-  LineNr: { fg: c.warmgrey, bg: c.lightgrey },
-  CursorLineNr: { fg: c.orange, bg: c.lightgrey },
-  SignColumn: { bg: c.lightblack },
+  VertSplit: { fg: c.black234, bg: c.black234 },
+  LineNr: { fg: c.grey243, bg: c.black237 },
+  CursorLineNr: { fg: c.orange, bg: c.black237 },
+  SignColumn: { bg: c.black236 },
   Conseal: { fg: c.white, bg: c.black },
 
   // spell
@@ -46,26 +46,25 @@ const highlight = {
   Directory: { fg: c.aqua },
 
   // diff
-  DiffAdd: { fg: c.addfg, bg: c.addbg },
-  DiffDelete: { fg: c.delfg, bg: c.delbg },
-  DiffChange: { fg: c.changefg, bg: c.changebg },
+  DiffAdd: { fg: c.lightgreen, bg: c.darkgreen },
+  DiffDelete: { fg: c.lightred, bg: c.darkred },
+  DiffChange: { fg: c.lightpurple, bg: c.darkpurple },
   DiffText: { fg: c.black, bg: c.aqua },
   diffAdded: { fg: c.green },
   diffFile: { fg: c.aqua },
-  diffIndexLine: { fg: c.warmgrey },
+  diffIndexLine: { fg: c.grey243 },
   diffRemoved: { fg: c.red },
-  diffSuname: { fg: c.warmgrey },
+  diffSuname: { fg: c.grey243 },
+
 
   // fold
-  Folded: { fg: c.warmgrey, bg: c.darkblack },
-  FoldColumn: { bg: c.darkblack },
-  // Incsearch"
+  Folded: { fg: c.grey243, bg: c.black234 },
+  FoldColumn: { bg: c.black234 },
 
   // popup menu
-  Pmenu: { fg: c.white, bg: c.darkgrey },
+  Pmenu: { fg: c.white, bg: c.gren238 },
   PmenuSel: { fg: c.aqua, bg: c.black, term: 'reverse,bold' },
-  PmenuThumb: { fg: c.lightblack, bg: c.grey },
-  // PmenuSbar"
+  PmenuThumb: { fg: c.black236, bg: c.grey },
 
   // Generic Syntax Highlighting
   // ---------------------------
@@ -107,7 +106,7 @@ const highlight = {
   // Debug"
 
   Todo: { fg: c.orange, term: 'bold,italic' },
-  Comment: { fg: c.warmgrey, term: 'italic' },
+  Comment: { fg: c.grey243, term: 'italic' },
 
   Underlined: { fg: c.green },
   Ignore: {},
@@ -130,15 +129,15 @@ const highlight = {
   // Buftabline
   // ---------
   BufTabLineCurrent: { fg: c.orange, bg: c.black },
-  BufTabLineActive: { fg: c.white, bg: c.lightgrey },
-  BufTabLineHidden: { fg: c.warmgrey, bg: c.darkblack },
-  BufTabLineFill: { bg: c.darkblack },
+  BufTabLineActive: { fg: c.white, bg: c.black234 },
+  BufTabLineHidden: { fg: c.grey240, bg: c.black234 },
+  BufTabLineFill: { bg: c.black234 },
 
   // CoC.nvim
-  CocWarningSign: { fg: c.orange, bg: c.lightgrey },
-  CocInfoSign: { fg: c.yellow, bg: c.lightgrey },
-  CocErrorSign: { fg: c.red, term: 'standout', bg: c.lightgrey },
-  CocMenuSel: { bg: c.changebg },
+  CocWarningSign: { fg: c.orange, bg: c.black237 },
+  CocInfoSign: { fg: c.yellow, bg: c.black237 },
+  CocErrorSign: { fg: c.red, term: 'standout', bg: c.black237 },
+  CocMenuSel: { bg: c.darkpurple },
 
   // Syntastic
   // ---------

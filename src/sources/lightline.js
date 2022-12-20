@@ -13,17 +13,17 @@ let description = {
   normal: {
     left: [
       [c.black, c.green],
-      [c.white, c.darkgrey],
-      [c.white, c.blue]
+      [c.white, c.gren238],
+      [c.green, c.black234]
     ],
     middle: [
-      [c.white, c.darkblack],
-      [c.white, c.darkblack]
+      [c.white, c.black234],
+      [c.white, c.black234]
     ],
     right: [
       [c.black, c.green],
-      [c.white, c.darkgrey],
-      [c.green, c.darkblack]
+      [c.white, c.gren238],
+      [c.green, c.black234]
     ],
     error: [
       [c.grey250, c.red]
@@ -36,63 +36,66 @@ let description = {
     left: [
       [c.black, c.grey240],
       [c.grey240, c.black],
-      [c.white, c.darkblack]
+      [c.grey240, c.black234]
+    ],
+    middle: [
+      [c.white, c.black234],
+      [c.white, c.black234],
     ],
     right: [
       [c.black, c.grey240],
       [c.grey240, c.black],
-      [c.white, c.darkblack]
+      [c.grey240, c.black234]
     ]
   },
   insert: {
     left: [
-      [c.darkblue, c.white],
+      [c.darkblue, c.aqua],
       [c.white, c.blue],
-      [c.white, c.darkpurple]
+      [c.white, c.darkblue]
     ],
     middle: [
       [c.white, c.darkblue],
       [c.white, c.darkblue]
     ],
     right: [
-      [c.darkblue, c.lightblue],
+      [c.darkblue, c.aqua],
       [c.white, c.blue],
       [c.white, c.darkblue]
     ]
   },
   visual: {
     left: [
-      [c.darkred, c.orange],
-      [c.darkred, c.mediumorange],
-      // [c.white, c.darkgrey],
-      [c.white, c.darkpurple]
+      [c.black, c.purple],
+      [c.white, c.gren238],
+      [c.purple, c.black234]
     ],
     middle: [
-      [c.darkred, c.darkorange],
-      [c.darkred, c.darkorange]
+      [c.white, c.black234],
+      [c.white, c.black234]
     ],
-    right: [
-      [c.darkred, c.orange],
-      [c.darkred, c.mediumorange],
-      // [c.white, c.darkgrey],
-      [c.darkred, c.darkorange]
+     right: [
+      [c.black, c.purple],
+      [c.white, c.gren238],
+      [c.purple, c.black234]
     ]
   },
   replace: {
     left: [
-      [c.white, c.lightred],
-      [c.white, c.grey240]
+      [c.black, c.orange],
+      [c.white, c.gren238],
+      [c.orange, c.black234]
     ],
     middle: [
-      [c.white, c.darkblack],
-      [c.white, c.darkblack]
+      [c.white, c.black234],
+      [c.white, c.black234]
     ],
-    right: [
-      [c.black, c.green],
-      [c.white, c.darkgrey],
-      [c.green, c.darkblack]
+     right: [
+      [c.black, c.orange],
+      [c.white, c.gren238],
+      [c.orange, c.black234]
     ]
-  },
+   },
   tabline: {
     left: [
       [c.grey250, c.grey240]
@@ -101,10 +104,10 @@ let description = {
       [c.grey250, c.black]
     ],
     middle: [
-      [c.lightblack2, c.grey]
+      [c.black237, c.grey]
     ],
     right: [
-      [c.grey250, c.darkgrey]
+      [c.grey250, c.gren238]
     ]
   }
 }
