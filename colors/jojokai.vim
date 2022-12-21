@@ -253,3 +253,5 @@ hi goVarDefs guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi goParamName guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goParamType guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goTypeName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonBraces guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonKeyword guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

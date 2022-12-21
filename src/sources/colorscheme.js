@@ -385,6 +385,10 @@ const highlight = {
   goParamName: { fg: c.orange },
   goParamType: { fg: c.purple },
   goTypeName: { fg: c.green },
+
+  // json
+  jsonBraces: { fg: c.white },
+  jsonKeyword: { fg: c.green },
 }
 
 const file = `
