@@ -6,19 +6,20 @@
 
 const {hi} = require('../common/utils')
 const c = require('../common/colors')
+const {black236} = require('../common/colors')
 
 const colorscheme = 'jojokai'
 const dist = `colors/${colorscheme}.vim`
 
 const highlight = {
   Normal: { fg: c.white, bg: c.black},
-  ColorColumn: { bg: c.black237 },
+  ColorColumn: { bg: c.black236 },
   Cursor: { bg: c.white },
   CursorColumn: { bg: c.black236, term: 'reverse' },
   CursorLine: { bg: c.black236 },
-  NonText: { fg: c.black237, bg: c.black237 },
+  NonText: { fg: c.black236, bg: c.black236 },
   StatusLine: { fg: c.grey243, bg: c.black, term: 'reverse' },
-  StatusLineNC: { fg: c.gren238, bg: c.grey243, term: 'reverse' },
+  StatusLineNC: { fg: c.grey238, bg: c.grey243, term: 'reverse' },
   TabLine: { fg: c.white, bg: c.black234, term: 'reverse' },
   Visual: { bg: c.black237 },
   Search: { fg: c.black, bg: c.yellow },
@@ -29,8 +30,8 @@ const highlight = {
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
   VertSplit: { fg: c.black234, bg: c.black234 },
-  LineNr: { fg: c.grey243, bg: c.black237 },
-  CursorLineNr: { fg: c.orange, bg: c.black237 },
+  LineNr: { fg: c.grey243, bg: c.black236 },
+  CursorLineNr: { fg: c.orange, bg: c.black236 },
   SignColumn: { bg: c.black236 },
   Conseal: { fg: c.white, bg: c.black },
 
@@ -49,20 +50,19 @@ const highlight = {
   DiffAdd: { fg: c.lightgreen, bg: c.darkgreen },
   DiffDelete: { fg: c.lightred, bg: c.darkred },
   DiffChange: { fg: c.lightpurple, bg: c.darkpurple },
-  DiffText: { fg: c.black, bg: c.aqua },
+  DiffText: { fg: c.orange, bg: c.aqua },
   diffAdded: { fg: c.green },
   diffFile: { fg: c.aqua },
   diffIndexLine: { fg: c.grey243 },
   diffRemoved: { fg: c.red },
   diffSuname: { fg: c.grey243 },
 
-
   // fold
   Folded: { fg: c.grey243, bg: c.black234 },
   FoldColumn: { bg: c.black234 },
 
   // popup menu
-  Pmenu: { fg: c.white, bg: c.gren238 },
+  Pmenu: { fg: c.white, bg: c.grey238 },
   PmenuSel: { fg: c.aqua, bg: c.black, term: 'reverse,bold' },
   PmenuThumb: { fg: c.black236, bg: c.grey },
 
@@ -134,9 +134,10 @@ const highlight = {
   BufTabLineFill: { bg: c.black234 },
 
   // CoC.nvim
-  CocWarningSign: { fg: c.orange, bg: c.black237 },
-  CocInfoSign: { fg: c.yellow, bg: c.black237 },
-  CocErrorSign: { fg: c.red, term: 'standout', bg: c.black237 },
+  CocWarningSign: { fg: c.orange, bg: c.black236 },
+  CocInfoSign: { fg: c.yellow, bg: c.black236 },
+  CocErrorSign: { fg: c.red, term: 'standout', bg: c.black236 },
+  CocHintSign: { fg: c.aqua, bg:black236 },
   CocMenuSel: { bg: c.darkpurple },
 
   // Syntastic
@@ -389,6 +390,9 @@ const highlight = {
   // json
   jsonBraces: { fg: c.white },
   jsonKeyword: { fg: c.green },
+
+  // gitcommit
+  gitcommitBlank: { fg: c.red },
 }
 
 const file = `

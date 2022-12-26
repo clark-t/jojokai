@@ -9,11 +9,11 @@ if exists("syntax_on")
 endif
 let g:colors_name = 'jojokai'
 hi Normal guifg=#DADADA ctermfg=253 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
-hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
+hi ColorColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#DADADA ctermbg=253 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=reverse cterm=reverse
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
-hi NonText guifg=#383830 ctermfg=237 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
+hi NonText guifg=#2D2E27 ctermfg=236 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi StatusLine guifg=#75715E ctermfg=243 guibg=#272822 ctermbg=235 gui=reverse cterm=reverse
 hi StatusLineNC guifg=#444444 ctermfg=238 guibg=#75715E ctermbg=243 gui=reverse cterm=reverse
 hi TabLine guifg=#DADADA ctermfg=253 guibg=#211F1C ctermbg=234 gui=reverse cterm=reverse
@@ -26,8 +26,8 @@ hi MoreMsg guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#FF5F5F ctermbg=203 gui=standout cterm=standout
 hi WarningMsg guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#211F1C ctermfg=234 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi LineNr guifg=#75715E ctermfg=243 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#FF8700 ctermfg=208 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
+hi LineNr guifg=#75715E ctermfg=243 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#FF8700 ctermfg=208 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi Conseal guifg=#DADADA ctermfg=253 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi SpellBad guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -40,7 +40,7 @@ hi Directory guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi DiffAdd guifg=#D7FFAF ctermfg=193 guibg=#5F875F ctermbg=65 gui=NONE cterm=NONE
 hi DiffDelete guifg=#FF8787 ctermfg=210 guibg=#D75F5F ctermbg=167 gui=NONE cterm=NONE
 hi DiffChange guifg=#D7D7FF ctermfg=189 guibg=#5F5F87 ctermbg=60 gui=NONE cterm=NONE
-hi DiffText guifg=#272822 ctermfg=235 guibg=#66D9EF ctermbg=81 gui=NONE cterm=NONE
+hi DiffText guifg=#FF8700 ctermfg=208 guibg=#66D9EF ctermbg=81 gui=NONE cterm=NONE
 hi diffAdded guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffFile guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffIndexLine guifg=#75715E ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -86,9 +86,10 @@ hi BufTabLineCurrent guifg=#FF8700 ctermfg=208 guibg=#272822 ctermbg=235 gui=NON
 hi BufTabLineActive guifg=#DADADA ctermfg=253 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
 hi BufTabLineHidden guifg=#545551 ctermfg=240 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi CocWarningSign guifg=#FF8700 ctermfg=208 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
-hi CocInfoSign guifg=#D7D75F ctermfg=185 guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
-hi CocErrorSign guifg=#FF5F5F ctermfg=203 guibg=#383830 ctermbg=237 gui=standout cterm=standout
+hi CocWarningSign guifg=#FF8700 ctermfg=208 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi CocInfoSign guifg=#D7D75F ctermfg=185 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi CocErrorSign guifg=#FF5F5F ctermfg=203 guibg=#2D2E27 ctermbg=236 gui=standout cterm=standout
+hi CocHintSign guifg=#66D9EF ctermfg=81 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi CocMenuSel guifg=NONE ctermfg=NONE guibg=#5F5F87 ctermbg=60 gui=NONE cterm=NONE
 hi jpropertiesIdentifier guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommand guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -255,3 +256,4 @@ hi goParamType guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi goTypeName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonBraces guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonKeyword guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi gitcommitBlank guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

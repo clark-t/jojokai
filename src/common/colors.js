@@ -13,7 +13,7 @@ colors.grey = {gui: '#90908a', cterm: 246}
 
 colors.grey243 = {gui: '#75715E', cterm: 243}
 colors.grey240 = {gui: '#545551', cterm: 240}
-colors.gren238 = {gui: '#444444', cterm: 238}
+colors.grey238 = {gui: '#444444', cterm: 238}
 
 colors.black237 = {gui: '#383830', cterm: 237}
 colors.black236 = {gui: '#2D2E27', cterm: 236}

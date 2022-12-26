@@ -13,8 +13,8 @@ let description = {
   normal: {
     left: [
       [c.black, c.green],
-      [c.white, c.gren238],
-      [c.green, c.black234]
+      [c.white, c.grey238],
+      [c.green, c.black234],
     ],
     middle: [
       [c.white, c.black234],
@@ -22,7 +22,7 @@ let description = {
     ],
     right: [
       [c.black, c.green],
-      [c.white, c.gren238],
+      [c.white, c.grey238],
       [c.green, c.black234]
     ],
     error: [
@@ -30,22 +30,6 @@ let description = {
     ],
     warning: [
       [c.black, c.yellow]
-    ]
-  },
-  inactive: {
-    left: [
-      [c.black, c.grey240],
-      [c.grey240, c.black],
-      [c.grey240, c.black234]
-    ],
-    middle: [
-      [c.white, c.black234],
-      [c.white, c.black234],
-    ],
-    right: [
-      [c.black, c.grey240],
-      [c.grey240, c.black],
-      [c.grey240, c.black234]
     ]
   },
   insert: {
@@ -64,26 +48,10 @@ let description = {
       [c.white, c.darkblue]
     ]
   },
-  visual: {
-    left: [
-      [c.black, c.purple],
-      [c.white, c.gren238],
-      [c.purple, c.black234]
-    ],
-    middle: [
-      [c.white, c.black234],
-      [c.white, c.black234]
-    ],
-     right: [
-      [c.black, c.purple],
-      [c.white, c.gren238],
-      [c.purple, c.black234]
-    ]
-  },
   replace: {
     left: [
       [c.black, c.orange],
-      [c.white, c.gren238],
+      [c.white, c.grey238],
       [c.orange, c.black234]
     ],
     middle: [
@@ -92,22 +60,68 @@ let description = {
     ],
      right: [
       [c.black, c.orange],
-      [c.white, c.gren238],
+      [c.white, c.grey238],
       [c.orange, c.black234]
     ]
-   },
-  tabline: {
+  },
+  visual: {
     left: [
-      [c.grey250, c.grey240]
-    ],
-    tabsel: [
-      [c.grey250, c.black]
+      [c.black, c.purple],
+      [c.white, c.grey238],
+      [c.white, c.black234],
     ],
     middle: [
-      [c.black237, c.grey]
+      [c.white, c.black234],
+      [c.white, c.black234],
+    ],
+     right: [
+      [c.black, c.purple],
+      [c.white, c.grey238],
+      [c.white, c.black234]
+    ]
+  },
+  inactive: {
+    left: [
+      [c.black, c.grey240],
+      [c.grey240, c.black],
+      [c.grey240, c.black234],
+    ],
+    middle: [
+      [c.white, c.black234],
+      [c.white, c.black234],
     ],
     right: [
-      [c.grey250, c.gren238]
+      [c.black, c.grey240],
+      [c.grey240, c.black],
+      [c.grey240, c.black234]
+    ]
+  },
+  // tabline: {
+  //   left: [
+  //     [c.grey250, c.grey240]
+  //   ],
+  //   tabsel: [
+  //     [c.black, c.purple]
+  //   ],
+  //   middle: [
+  //     [c.white, c.black234]
+  //   ],
+  //   right: [
+  //     [c.grey250, c.grey240]
+  //   ]
+  // }
+  tabline: {
+    left: [
+      [c.black, c.grey240]
+    ],
+    tabsel: [
+      [c.orange, c.black]
+    ],
+    middle: [
+      [c.white, c.black234]
+    ],
+    right: [
+      [c.black, c.grey240]
     ]
   }
 }
