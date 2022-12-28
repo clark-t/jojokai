@@ -393,6 +393,16 @@ const highlight = {
 
   // gitcommit
   gitcommitBlank: { fg: c.red },
+
+  // zsh
+  zshSubstDelim: { fg: c.green },
+  zshSubstQuoted: { fg: c.white },
+  zshSubst: { fg: c.white },
+  zshQuoted: { fg: c.purple },
+  zshTrueCommand: { fg: c.purple },
+  zshFalseCommand: { fg: c.purple },
+  zshSubstOp: { fg: c.pink },
+  zshFunction: { fg: c.purple },
 }
 
 const file = `
