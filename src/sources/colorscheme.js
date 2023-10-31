@@ -6,18 +6,19 @@
 
 const {hi} = require('../common/utils')
 const c = require('../common/colors')
-const {black236} = require('../common/colors')
 
 const colorscheme = 'jojokai'
 const dist = `colors/${colorscheme}.vim`
 
 const highlight = {
-  Normal: { fg: c.white, bg: c.black},
+  Normal: { fg: c.white, bg: c.black },
   ColorColumn: { bg: c.black236 },
   Cursor: { bg: c.white },
   CursorColumn: { bg: c.black236, term: 'reverse' },
   CursorLine: { bg: c.black236 },
-  NonText: { fg: c.black236, bg: c.black236 },
+  CursorLineSign: { bg: c.black236 },
+  NonText: { fg: c.black, bg: c.black },
+  // NonText: { fg: c.black236, bg: c.black236 },
   StatusLine: { fg: c.grey243, bg: c.black, term: 'reverse' },
   StatusLineNC: { fg: c.grey238, bg: c.grey243, term: 'reverse' },
   TabLine: { fg: c.white, bg: c.black234, term: 'reverse' },
@@ -30,9 +31,11 @@ const highlight = {
   ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
   WarningMsg: { fg: c.red },
   VertSplit: { fg: c.black234, bg: c.black234 },
-  LineNr: { fg: c.grey243, bg: c.black236 },
+  LineNr: { fg: c.grey243, bg: c.black },
+  // LineNr: { fg: c.grey243, bg: c.black236 },
   CursorLineNr: { fg: c.orange, bg: c.black236 },
-  SignColumn: { bg: c.black236 },
+  SignColumn: { bg: c.black },
+  // SignColumn: { bg: c.black236 },
   Conseal: { fg: c.white, bg: c.black },
 
   // spell
@@ -43,6 +46,8 @@ const highlight = {
 
   // misc
   SpecialKey: { fg: c.pink },
+  Whitespace: { fg: c.pink },
+  TrailingBlank: { fg: c.pink, bg: c.pink },
   Title: { fg: c.yellow },
   Directory: { fg: c.aqua },
 
@@ -137,7 +142,7 @@ const highlight = {
   CocWarningSign: { fg: c.orange, bg: c.black236 },
   CocInfoSign: { fg: c.yellow, bg: c.black236 },
   CocErrorSign: { fg: c.red, term: 'standout', bg: c.black236 },
-  CocHintSign: { fg: c.aqua, bg:black236 },
+  CocHintSign: { fg: c.aqua, bg: c.black236 },
   CocMenuSel: { bg: c.darkpurple },
 
   // Syntastic
@@ -231,7 +236,7 @@ const highlight = {
   typescriptFuncComma: { fg: c.white },
   typescriptArrowFuncArg: { fg: c.orange, term: 'italic' },
   typescriptCall: { fg: c.orange, term: 'italic' },
-  // typescriptFuncCallArg: { fg: c.white },
+  typescriptFuncCallArg: { fg: c.white },
   typescriptClassKeyword: { fg: c.aqua, term: 'italic' },
   typescriptClassName: { fg: c.green },
   typescriptClassHeritage: { fg: c.white },
@@ -403,6 +408,10 @@ const highlight = {
   zshFalseCommand: { fg: c.purple },
   zshSubstOp: { fg: c.pink },
   zshFunction: { fg: c.purple },
+
+  // lua
+  luaFunction: { fg: c.aqua },
+  luaStatement: { fg: c.aqua },
 }
 
 const file = `

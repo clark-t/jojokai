@@ -24,7 +24,6 @@ const fn = async <T extends string>(arg: T) => {
   console.log(arg)
 }
 
-
 const fn3 = function <T extends number[]>(arg: T): void {
   console.log(arg)
 }

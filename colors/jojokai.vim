@@ -13,7 +13,8 @@ hi ColorColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=
 hi Cursor guifg=NONE ctermfg=NONE guibg=#DADADA ctermbg=253 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=reverse cterm=reverse
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
-hi NonText guifg=#2D2E27 ctermfg=236 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi CursorLineSign guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi NonText guifg=#272822 ctermfg=235 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi StatusLine guifg=#75715E ctermfg=243 guibg=#272822 ctermbg=235 gui=reverse cterm=reverse
 hi StatusLineNC guifg=#444444 ctermfg=238 guibg=#75715E ctermbg=243 gui=reverse cterm=reverse
 hi TabLine guifg=#DADADA ctermfg=253 guibg=#211F1C ctermbg=234 gui=reverse cterm=reverse
@@ -26,15 +27,17 @@ hi MoreMsg guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#FF5F5F ctermbg=203 gui=standout cterm=standout
 hi WarningMsg guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#211F1C ctermfg=234 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi LineNr guifg=#75715E ctermfg=243 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi LineNr guifg=#75715E ctermfg=243 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FF8700 ctermfg=208 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi Conseal guifg=#DADADA ctermfg=253 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi SpellBad guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellCap guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellRare guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellLocal guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpecialKey guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Whitespace guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TrailingBlank guifg=#F92672 ctermfg=198 guibg=#F92672 ctermbg=198 gui=NONE cterm=NONE
 hi Title guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Directory guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#D7FFAF ctermfg=193 guibg=#5F875F ctermbg=65 gui=NONE cterm=NONE
@@ -157,6 +160,7 @@ hi typescriptFuncName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE
 hi typescriptFuncComma guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptArrowFuncArg guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptCall guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptFuncCallArg guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassKeyword guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptClassHeritage guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -265,3 +269,5 @@ hi zshTrueCommand guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cte
 hi zshFalseCommand guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshSubstOp guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshFunction guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi luaFunction guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi luaStatement guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
