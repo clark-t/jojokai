@@ -112,16 +112,17 @@ let description = {
   // }
   tabline: {
     left: [
-      [c.black, c.grey240]
+      [c.grey243, c.black234]
     ],
     tabsel: [
-      [c.orange, c.black]
+      [c.orange, c.black236]
     ],
     middle: [
-      [c.white, c.black234]
+      [c.grey243, c.black234]
     ],
     right: [
-      [c.black, c.grey240]
+      [c.orange, c.black236],
+      [c.grey243, c.black234],
     ]
   }
 }

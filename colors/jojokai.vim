@@ -24,8 +24,8 @@ hi MatchParen guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=underline,bo
 hi Question guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ModeMsg guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ErrorMsg guifg=#272822 ctermfg=235 guibg=#FF5F5F ctermbg=203 gui=standout cterm=standout
-hi WarningMsg guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ErrorMsg guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=standout cterm=standout
+hi WarningMsg guifg=#272822 ctermfg=235 guibg=#D7D75F ctermbg=185 gui=NONE cterm=NONE
 hi VertSplit guifg=#211F1C ctermfg=234 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
 hi LineNr guifg=#75715E ctermfg=243 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FF8700 ctermfg=208 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
@@ -270,4 +270,3 @@ hi zshFalseCommand guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE ct
 hi zshSubstOp guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshFunction guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFunction guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi luaStatement guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

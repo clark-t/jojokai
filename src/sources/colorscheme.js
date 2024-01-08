@@ -28,8 +28,8 @@ const highlight = {
   Question: { fg: c.yellow },
   ModeMsg: { fg: c.yellow },
   MoreMsg: { fg: c.yellow },
-  ErrorMsg: { fg: c.black, bg: c.red, term: 'standout' },
-  WarningMsg: { fg: c.red },
+  ErrorMsg: { fg: c.red, term: 'standout' },
+  WarningMsg: { fg: c.black, bg: c.yellow },
   VertSplit: { fg: c.black234, bg: c.black234 },
   LineNr: { fg: c.grey243, bg: c.black },
   // LineNr: { fg: c.grey243, bg: c.black236 },
@@ -411,7 +411,6 @@ const highlight = {
 
   // lua
   luaFunction: { fg: c.aqua },
-  luaStatement: { fg: c.aqua },
 }
 
 const file = `
