@@ -18,7 +18,6 @@ const highlight = {
   CursorLine: { bg: c.black236 },
   CursorLineSign: { bg: c.black236 },
   NonText: { fg: c.black, bg: c.black },
-  // NonText: { fg: c.black236, bg: c.black236 },
   StatusLine: { fg: c.grey243, bg: c.black, term: 'reverse' },
   StatusLineNC: { fg: c.grey238, bg: c.grey243, term: 'reverse' },
   TabLine: { fg: c.white, bg: c.black234, term: 'reverse' },
@@ -32,10 +31,8 @@ const highlight = {
   WarningMsg: { fg: c.black, bg: c.yellow },
   VertSplit: { fg: c.black234, bg: c.black234 },
   LineNr: { fg: c.grey243, bg: c.black },
-  // LineNr: { fg: c.grey243, bg: c.black236 },
   CursorLineNr: { fg: c.orange, bg: c.black236 },
   SignColumn: { bg: c.black },
-  // SignColumn: { bg: c.black236 },
   Conseal: { fg: c.white, bg: c.black },
 
   // spell
@@ -67,10 +64,11 @@ const highlight = {
   FoldColumn: { bg: c.black234 },
 
   // popup menu
-  Pmenu: { fg: c.white, bg: c.grey238 },
-  PmenuSel: { fg: c.aqua, bg: c.black, term: 'reverse,bold' },
-  PmenuThumb: { fg: c.black236, bg: c.grey },
-
+  Pmenu: { fg: c.white, bg: c.black237 },
+  PmenuSel: { bg: c.grey240 },
+  PmenuThumb: { bg: c.grey },
+  PmenuSbar: { bg: c.black236 },
+  PmenuMatch: { fg: c.aqua },
   // Generic Syntax Highlighting
   // ---------------------------
 
@@ -139,11 +137,12 @@ const highlight = {
   BufTabLineFill: { bg: c.black234 },
 
   // CoC.nvim
-  CocWarningSign: { fg: c.orange, bg: c.black236 },
-  CocInfoSign: { fg: c.yellow, bg: c.black236 },
-  CocErrorSign: { fg: c.red, term: 'standout', bg: c.black236 },
-  CocHintSign: { fg: c.aqua, bg: c.black236 },
-  CocMenuSel: { bg: c.darkpurple },
+  CocWarningSign: { fg: c.orange, term: 'standout' },
+  CocInfoSign: { fg: c.aqua, term: 'standout' },
+  CocErrorSign: { fg: c.red, term: 'standout' },
+  CocHintSign: { fg: c.aqua, term: 'standout' },
+  CocMenuSel: { bg: c.grey240 },
+  CocSearch: { fg: c.aqua },
 
   // Syntastic
   // ---------
