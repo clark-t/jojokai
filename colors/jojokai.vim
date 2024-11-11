@@ -91,10 +91,10 @@ hi BufTabLineCurrent guifg=#FF8700 ctermfg=208 guibg=#272822 ctermbg=235 gui=NON
 hi BufTabLineActive guifg=#DADADA ctermfg=253 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
 hi BufTabLineHidden guifg=#545551 ctermfg=240 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi CocWarningSign guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=standout cterm=standout
-hi CocInfoSign guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=standout cterm=standout
+hi CocWarningSign guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocInfoSign guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocErrorSign guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=standout cterm=standout
-hi CocHintSign guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=standout cterm=standout
+hi CocHintSign guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocMenuSel guifg=NONE ctermfg=NONE guibg=#545551 ctermbg=240 gui=NONE cterm=NONE
 hi CocSearch guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jpropertiesIdentifier guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

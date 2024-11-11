@@ -137,10 +137,10 @@ const highlight = {
   BufTabLineFill: { bg: c.black234 },
 
   // CoC.nvim
-  CocWarningSign: { fg: c.orange, term: 'standout' },
-  CocInfoSign: { fg: c.aqua, term: 'standout' },
+  CocWarningSign: { fg: c.orange },
+  CocInfoSign: { fg: c.yellow },
   CocErrorSign: { fg: c.red, term: 'standout' },
-  CocHintSign: { fg: c.aqua, term: 'standout' },
+  CocHintSign: { fg: c.yellow },
   CocMenuSel: { bg: c.grey240 },
   CocSearch: { fg: c.aqua },
 

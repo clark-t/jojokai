@@ -1,4 +1,3 @@
-" syntax keyword vimSpecialVar contained containedin=vimVar v:true v:false v:null v:none
 syntax match vimSpecialVar contained /v:false\|v:true\|v:none\|v:null/ containedin=vimVar
 syntax match vimOperAssign contained /\([=!><]\)\@<!\zs=\ze\([=~]\)\@!/ containedin=vimOper
 syntax match vimVarDeclear contained /\([&*]\)\{0,1}\([sglbwt]:\)\{0,1}\w\+/ nextgroup=vimOperAssign
