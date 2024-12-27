@@ -4,7 +4,7 @@
  * @description copy and modify from https://github.com/crusoexia/vim-monokai/blob/master/colors/monokai.vim
  */
 
-const {hi} = require('../common/utils')
+const { hi } = require('../common/utils')
 const c = require('../common/colors')
 
 const colorscheme = 'jojokai'
@@ -22,13 +22,13 @@ const highlight = {
   StatusLineNC: { fg: c.grey238, bg: c.grey243, term: 'reverse' },
   TabLine: { fg: c.white, bg: c.black234, term: 'reverse' },
   Visual: { bg: c.black237 },
-  Search: { fg: c.black, bg: c.yellow },
+  Search: { term: 'reverse' },
   MatchParen: { fg: c.purple, term: 'underline,bold' },
   Question: { fg: c.yellow },
   ModeMsg: { fg: c.yellow },
-  MoreMsg: { fg: c.yellow },
+  MoreMsg: { fg: c.grey243 },
   ErrorMsg: { fg: c.red, term: 'standout' },
-  WarningMsg: { fg: c.black, bg: c.yellow },
+  WarningMsg: { term: 'reverse' },
   VertSplit: { fg: c.black234, bg: c.black234 },
   LineNr: { fg: c.grey243, bg: c.black },
   CursorLineNr: { fg: c.orange, bg: c.black236 },
@@ -143,6 +143,7 @@ const highlight = {
   CocHintSign: { fg: c.yellow },
   CocMenuSel: { bg: c.grey240 },
   CocSearch: { fg: c.aqua },
+  // CocFloating: { fg: c.white },
 
   // Syntastic
   // ---------
@@ -287,10 +288,11 @@ const highlight = {
   dartType: { fg: c.aqua },
 
   // HTML
-  htmlTag: { fg: c.white },
-  htmlEndTag: { fg: c.white },
+  htmlTagN: { fg: c.pink },
+  htmlTag: { fg: c.pink },
+  htmlEndTag: { fg: c.pink },
   htmlTagName: { fg: c.pink },
-  htmlArg: { fg: c.green },
+  htmlArg: { fg: c.aqua },
   htmlSpecialChar: { fg: c.purple },
 
   // XML
@@ -422,15 +424,12 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = '${colorscheme}'
-${
-  Object.keys(highlight)
-    .map(group => hi(group, highlight[group]))
-    .join('\n')
-}
+${Object.keys(highlight)
+  .map((group) => hi(group, highlight[group]))
+  .join('\n')}
 `
 
 module.exports = {
   dist,
-  file
+  file,
 }
-

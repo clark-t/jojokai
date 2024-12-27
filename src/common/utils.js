@@ -5,45 +5,42 @@
 const operation = {
   fg: colorstring,
   bg: colorstring,
-  term: termstring
+  term: termstring,
 }
 const keys = Object.keys(operation)
 
-function hi (group, style) {
-   return `hi ${group} ${
-    keys
-    .map(key => operation[key](style[key], key))
-    .join(' ')
-  }`
+function hi(group, style) {
+  return `hi ${group} ${keys.map((key) => operation[key](style[key], key)).join(' ')}`
 }
 
-function termstring (terms) {
+function termstring(terms) {
   if (Array.isArray(terms)) {
     let val = Array.from(new Set(terms)).join(',')
     return `gui=${val} cterm=${val}`
   }
-  let val = (terms || '')
+  let val =
+    (terms || '')
       .replace('italic', '')
       .replace(/(^,|,$)/, '')
-      .replace(',,', ',')
-      || 'NONE'
+      .replace(',,', ',') || 'NONE'
 
   return `gui=${val} cterm=${val}`
 }
 
-function colorstring (color, type) {
+function colorstring(color, type) {
   if (!color) {
     return `gui${type}=NONE cterm${type}=NONE`
   }
-  return Object.keys(color).map(key => `${key}${type}=${color[key].toString().toUpperCase()}`).join(' ')
+  return Object.keys(color)
+    .map((key) => `${key}${type}=${color[key].toString().toUpperCase()}`)
+    .join(' ')
 }
 
-function getColorArray (color) {
+function getColorArray(color) {
   return [color.gui, color.cterm]
 }
 
 module.exports = {
   hi,
-  getColorArray
+  getColorArray,
 }
-
