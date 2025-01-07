@@ -85,7 +85,7 @@ export const NodeView = ({ className = '', style }) => {
     console.log(bb)
   }
 
-  const regex = /^a\s.*[^abc]+([de\w]f|\w){1,2}(?=abc)(?!def)bc$/gi
+  const regex = /^a\s.*[^abc\/]+([de\w]f|\w){1,2}(?=abc)(?!def)bc$/gi
 
   try {
     const json = JSON.parse('{}')

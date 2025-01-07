@@ -30,18 +30,18 @@ let description = {
   },
   insert: {
     left: [
-      [c.darkblue, c.aqua],
-      [c.white, c.blue],
-      [c.white, c.darkblue],
+      [c.black, c.aqua],
+      [c.white, c.grey238],
+      [c.aqua, c.black234],
     ],
     middle: [
-      [c.white, c.darkblue],
-      [c.white, c.darkblue],
+      [c.white, c.black234],
+      [c.white, c.black234],
     ],
     right: [
-      [c.darkblue, c.aqua],
-      [c.white, c.blue],
-      [c.white, c.darkblue],
+      [c.black, c.aqua],
+      [c.white, c.grey238],
+      [c.aqua, c.black],
     ],
   },
   replace: {
@@ -64,7 +64,7 @@ let description = {
     left: [
       [c.black, c.purple],
       [c.white, c.grey238],
-      [c.white, c.black234],
+      [c.purple, c.black234],
     ],
     middle: [
       [c.white, c.black234],
@@ -73,7 +73,7 @@ let description = {
     right: [
       [c.black, c.purple],
       [c.white, c.grey238],
-      [c.white, c.black234],
+      [c.purple, c.black234],
     ],
   },
   inactive: {
@@ -92,27 +92,13 @@ let description = {
       [c.grey240, c.black234],
     ],
   },
-  // tabline: {
-  //   left: [
-  //     [c.grey250, c.grey240]
-  //   ],
-  //   tabsel: [
-  //     [c.black, c.purple]
-  //   ],
-  //   middle: [
-  //     [c.white, c.black234]
-  //   ],
-  //   right: [
-  //     [c.grey250, c.grey240]
-  //   ]
-  // }
   tabline: {
-    left: [[c.grey243, c.black234]],
-    tabsel: [[c.orange, c.black236]],
-    middle: [[c.grey243, c.black234]],
+    left: [[c.grey240, c.black234]],
+    tabsel: [[c.orange, c.black]],
+    middle: [[c.grey240, c.black234]],
     right: [
-      [c.orange, c.black236],
-      [c.grey243, c.black234],
+      [c.orange, c.black],
+      [c.grey240, c.black234],
     ],
   },
 }

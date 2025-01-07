@@ -15,8 +15,8 @@ hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=reverse ct
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineSign guifg=NONE ctermfg=NONE guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi NonText guifg=#272822 ctermfg=235 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
-hi StatusLine guifg=#75715E ctermfg=243 guibg=#272822 ctermbg=235 gui=reverse cterm=reverse
-hi StatusLineNC guifg=#444444 ctermfg=238 guibg=#75715E ctermbg=243 gui=reverse cterm=reverse
+hi StatusLineNC guifg=#211F1C ctermfg=234 guibg=#211F1C ctermbg=234 gui=reverse cterm=reverse
+hi StatusLine guifg=#272822 ctermfg=235 guibg=#272822 ctermbg=235 gui=reverse cterm=reverse
 hi TabLine guifg=#DADADA ctermfg=253 guibg=#211F1C ctermbg=234 gui=reverse cterm=reverse
 hi Visual guifg=NONE ctermfg=NONE guibg=#383830 ctermbg=237 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
@@ -27,7 +27,7 @@ hi MoreMsg guifg=#75715E ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=standout cterm=standout
 hi WarningMsg guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi VertSplit guifg=#211F1C ctermfg=234 guibg=#211F1C ctermbg=234 gui=NONE cterm=NONE
-hi LineNr guifg=#75715E ctermfg=243 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi LineNr guifg=#545551 ctermfg=240 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FF8700 ctermfg=208 guibg=#2D2E27 ctermbg=236 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi Conseal guifg=#DADADA ctermfg=253 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
@@ -43,7 +43,7 @@ hi Directory guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi DiffAdd guifg=#D7FFAF ctermfg=193 guibg=#5F875F ctermbg=65 gui=NONE cterm=NONE
 hi DiffDelete guifg=#FF8787 ctermfg=210 guibg=#D75F5F ctermbg=167 gui=NONE cterm=NONE
 hi DiffChange guifg=#D7D7FF ctermfg=189 guibg=#5F5F87 ctermbg=60 gui=NONE cterm=NONE
-hi DiffText guifg=#FF8700 ctermfg=208 guibg=#66D9EF ctermbg=81 gui=NONE cterm=NONE
+hi DiffText guifg=#545551 ctermfg=240 guibg=#AE81FF ctermbg=141 gui=NONE cterm=NONE
 hi diffAdded guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffFile guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffIndexLine guifg=#75715E ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -225,6 +225,7 @@ hi jsxClosePunct guifg=#AE81FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cter
 hi jsxTagName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxComponentName guifg=#F92672 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxAttrib guifg=#66D9EF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsxAttributeBraces guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxEqual guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsxBraces guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssProp guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

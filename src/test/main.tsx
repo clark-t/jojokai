@@ -20,11 +20,11 @@ function fn2<T extends 1 | 2 | 3>(arg: T) {
 
 fn2(3)
 
-const fn = async <T extends string>(arg: T) => {
+export const fn = async <T extends string>(arg: T) => {
   console.log(arg)
 }
 
-const fn3 = function <T extends number[]>(arg: T): void {
+export const fn3 = async function <T extends number[]>(arg: T): Promise<void> {
   console.log(arg)
 }
 
@@ -91,7 +91,7 @@ export class TestClass extends Array {
 }
 
 export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
-  const [state, setState] = useState(0)
+  const [state, setState, ...rest] = useState(0)
   const { ob: obj1, obj2, ...obj3 } = {} as any
 
   var nnn = NaN
@@ -111,7 +111,7 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
     ...obj3,
   }
 
-  const arr = [1, 2, nnn, ...obj]
+  const arr = [1, 2, nnn, ...rest]
 
   let fn = ({ a: aa, b: bb }: { a: string; b: number }) => {
     const { c: cc } = aa as any
