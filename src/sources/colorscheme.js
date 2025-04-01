@@ -12,16 +12,18 @@ const dist = `colors/${colorscheme}.vim`
 
 const highlight = {
   Normal: { fg: c.white, bg: c.black },
-  ColorColumn: { bg: c.black236 },
+  ColorColumn: { bg: c.black235 },
   Cursor: { bg: c.white },
-  CursorColumn: { bg: c.black236, term: 'reverse' },
-  CursorLine: { bg: c.black236 },
-  CursorLineSign: { bg: c.black236 },
+  CursorColumn: { bg: c.black235, term: 'reverse' },
+  CursorLine: { bg: c.black235 },
+  CursorLineSign: { bg: c.black235 },
   NonText: { fg: c.black, bg: c.black },
-  StatusLineNC: { fg: c.black234, bg: c.black234, term: 'reverse' },
-  StatusLine: { fg: c.black, bg: c.black, term: 'reverse' },
-  TabLine: { fg: c.white, bg: c.black234, term: 'reverse' },
-  Visual: { bg: c.black237 },
+
+  StatusLineNC: { fg: c.black, bg: c.black },
+  StatusLine: { fg: c.black232, bg: c.black232 },
+  TabLine: { fg: c.white, bg: c.black232 },
+
+  Visual: { bg: c.black236 },
   Search: { term: 'reverse' },
   MatchParen: { fg: c.purple, term: 'underline,bold' },
   Question: { fg: c.yellow },
@@ -29,9 +31,9 @@ const highlight = {
   MoreMsg: { fg: c.grey243 },
   ErrorMsg: { fg: c.red, term: 'standout' },
   WarningMsg: { term: 'reverse' },
-  VertSplit: { fg: c.black234, bg: c.black234 },
+  VertSplit: { fg: c.black232, bg: c.black232 },
   LineNr: { fg: c.grey240, bg: c.black },
-  CursorLineNr: { fg: c.orange, bg: c.black236 },
+  CursorLineNr: { fg: c.orange, bg: c.black235 },
   SignColumn: { bg: c.black },
   Conseal: { fg: c.white, bg: c.black },
 
@@ -60,14 +62,14 @@ const highlight = {
   diffSuname: { fg: c.grey243 },
 
   // fold
-  Folded: { fg: c.grey243, bg: c.black234 },
-  FoldColumn: { bg: c.black234 },
+  Folded: { fg: c.grey243, bg: c.black232 },
+  FoldColumn: { bg: c.black232 },
 
   // popup menu
-  Pmenu: { fg: c.white, bg: c.black237 },
+  Pmenu: { fg: c.white, bg: c.black236 },
   PmenuSel: { bg: c.grey240 },
   PmenuThumb: { bg: c.grey },
-  PmenuSbar: { bg: c.black236 },
+  PmenuSbar: { bg: c.black235 },
   PmenuMatch: { fg: c.aqua },
   // Generic Syntax Highlighting
   // ---------------------------
@@ -132,9 +134,9 @@ const highlight = {
   // Buftabline
   // ---------
   BufTabLineCurrent: { fg: c.orange, bg: c.black },
-  BufTabLineActive: { fg: c.white, bg: c.black234 },
-  BufTabLineHidden: { fg: c.grey240, bg: c.black234 },
-  BufTabLineFill: { bg: c.black234 },
+  BufTabLineActive: { fg: c.white, bg: c.black232 },
+  BufTabLineHidden: { fg: c.grey240, bg: c.black232 },
+  BufTabLineFill: { bg: c.black232 },
 
   // CoC.nvim
   CocWarningSign: { fg: c.orange },
