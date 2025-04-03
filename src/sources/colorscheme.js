@@ -20,8 +20,8 @@ const highlight = {
   NonText: { fg: c.black, bg: c.black },
 
   StatusLineNC: { fg: c.black, bg: c.black },
-  StatusLine: { fg: c.black232, bg: c.black232 },
-  TabLine: { fg: c.white, bg: c.black232 },
+  StatusLine: { fg: c.black233, bg: c.black233 },
+  TabLine: { fg: c.white, bg: c.black233 },
 
   Visual: { bg: c.black236 },
   Search: { term: 'reverse' },
@@ -31,7 +31,7 @@ const highlight = {
   MoreMsg: { fg: c.grey243 },
   ErrorMsg: { fg: c.red, term: 'standout' },
   WarningMsg: { term: 'reverse' },
-  VertSplit: { fg: c.black232, bg: c.black232 },
+  VertSplit: { fg: c.black233, bg: c.black233 },
   LineNr: { fg: c.grey240, bg: c.black },
   CursorLineNr: { fg: c.orange, bg: c.black235 },
   SignColumn: { bg: c.black },
@@ -62,8 +62,8 @@ const highlight = {
   diffSuname: { fg: c.grey243 },
 
   // fold
-  Folded: { fg: c.grey243, bg: c.black232 },
-  FoldColumn: { bg: c.black232 },
+  Folded: { fg: c.grey243, bg: c.black233 },
+  FoldColumn: { bg: c.black233 },
 
   // popup menu
   Pmenu: { fg: c.white, bg: c.black236 },
@@ -115,7 +115,7 @@ const highlight = {
 
   Underlined: { fg: c.green },
   Ignore: {},
-  Error: { fg: c.red, bg: c.darkred },
+  Error: { fg: c.lightred, bg: c.darkred },
 
   // NerdTree
   // --------
@@ -134,9 +134,9 @@ const highlight = {
   // Buftabline
   // ---------
   BufTabLineCurrent: { fg: c.orange, bg: c.black },
-  BufTabLineActive: { fg: c.white, bg: c.black232 },
-  BufTabLineHidden: { fg: c.grey240, bg: c.black232 },
-  BufTabLineFill: { bg: c.black232 },
+  BufTabLineActive: { fg: c.white, bg: c.black233 },
+  BufTabLineHidden: { fg: c.grey240, bg: c.black233 },
+  BufTabLineFill: { bg: c.black233 },
 
   // CoC.nvim
   CocWarningSign: { fg: c.orange },

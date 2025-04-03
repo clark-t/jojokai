@@ -16,8 +16,8 @@ hi CursorLine guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cterm=N
 hi CursorLineSign guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi NonText guifg=#1C1C1C ctermfg=234 guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#1C1C1C ctermfg=234 guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
-hi StatusLine guifg=#080808 ctermfg=232 guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
-hi TabLine guifg=#DADADA ctermfg=253 guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
+hi StatusLine guifg=#121212 ctermfg=233 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi TabLine guifg=#DADADA ctermfg=253 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi MatchParen guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
@@ -26,7 +26,7 @@ hi ModeMsg guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#767676 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=standout cterm=standout
 hi WarningMsg guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-hi VertSplit guifg=#080808 ctermfg=232 guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
+hi VertSplit guifg=#121212 ctermfg=233 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#585858 ctermfg=240 guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FF8700 ctermfg=208 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
@@ -49,8 +49,8 @@ hi diffFile guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffIndexLine guifg=#767676 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffRemoved guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffSuname guifg=#767676 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Folded guifg=#767676 ctermfg=243 guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
-hi FoldColumn guifg=NONE ctermfg=NONE guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
+hi Folded guifg=#767676 ctermfg=243 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi FoldColumn guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi Pmenu guifg=#DADADA ctermfg=253 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi PmenuSel guifg=NONE ctermfg=NONE guibg=#585858 ctermbg=240 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#949494 ctermbg=246 gui=NONE cterm=NONE
@@ -86,11 +86,11 @@ hi Todo guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Comment guifg=#767676 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Ignore guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Error guifg=#FF5F5F ctermfg=203 guibg=#D75F5F ctermbg=167 gui=NONE cterm=NONE
+hi Error guifg=#FFAFAF ctermfg=217 guibg=#D75F5F ctermbg=167 gui=NONE cterm=NONE
 hi BufTabLineCurrent guifg=#FF8700 ctermfg=208 guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
-hi BufTabLineActive guifg=#DADADA ctermfg=253 guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
-hi BufTabLineHidden guifg=#585858 ctermfg=240 guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
-hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#080808 ctermbg=232 gui=NONE cterm=NONE
+hi BufTabLineActive guifg=#DADADA ctermfg=253 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi BufTabLineHidden guifg=#585858 ctermfg=240 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi CocWarningSign guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocInfoSign guifg=#D7D75F ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocErrorSign guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=standout cterm=standout

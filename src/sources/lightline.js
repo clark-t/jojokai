@@ -14,16 +14,16 @@ let description = {
     left: [
       [c.black234, c.green],
       [c.white, c.grey238],
-      [c.green, c.black232],
+      [c.green, c.black233],
     ],
     middle: [
-      [c.white, c.black232],
-      [c.white, c.black232],
+      [c.white, c.black233],
+      [c.white, c.black233],
     ],
     right: [
       [c.black234, c.green],
       [c.white, c.grey238],
-      [c.green, c.black232],
+      [c.green, c.black233],
     ],
     error: [[c.grey250, c.red]],
     warning: [[c.black234, c.yellow]],
@@ -32,11 +32,11 @@ let description = {
     left: [
       [c.black234, c.aqua],
       [c.white, c.grey238],
-      [c.aqua, c.black232],
+      [c.aqua, c.black233],
     ],
     middle: [
-      [c.white, c.black232],
-      [c.white, c.black232],
+      [c.white, c.black233],
+      [c.white, c.black233],
     ],
     right: [
       [c.black234, c.aqua],
@@ -48,57 +48,57 @@ let description = {
     left: [
       [c.black234, c.orange],
       [c.white, c.grey238],
-      [c.orange, c.black232],
+      [c.orange, c.black233],
     ],
     middle: [
-      [c.white, c.black232],
-      [c.white, c.black232],
+      [c.white, c.black233],
+      [c.white, c.black233],
     ],
     right: [
       [c.black234, c.orange],
       [c.white, c.grey238],
-      [c.orange, c.black232],
+      [c.orange, c.black233],
     ],
   },
   visual: {
     left: [
       [c.black234, c.purple],
       [c.white, c.grey238],
-      [c.purple, c.black232],
+      [c.purple, c.black233],
     ],
     middle: [
-      [c.white, c.black232],
-      [c.white, c.black232],
+      [c.white, c.black233],
+      [c.white, c.black233],
     ],
     right: [
       [c.black234, c.purple],
       [c.white, c.grey238],
-      [c.purple, c.black232],
+      [c.purple, c.black233],
     ],
   },
   inactive: {
     left: [
       [c.black234, c.grey240],
       [c.grey240, c.black234],
-      [c.grey240, c.black232],
+      [c.grey240, c.black233],
     ],
     middle: [
-      [c.white, c.black232],
-      [c.white, c.black232],
+      [c.white, c.black233],
+      [c.white, c.black233],
     ],
     right: [
       [c.black234, c.grey240],
       [c.grey240, c.black234],
-      [c.grey240, c.black232],
+      [c.grey240, c.black233],
     ],
   },
   tabline: {
-    left: [[c.grey240, c.black232]],
+    left: [[c.grey240, c.black233]],
     tabsel: [[c.orange, c.black234]],
-    middle: [[c.grey240, c.black232]],
+    middle: [[c.grey240, c.black233]],
     right: [
       [c.orange, c.black234],
-      [c.grey240, c.black232],
+      [c.grey240, c.black233],
     ],
   },
 }

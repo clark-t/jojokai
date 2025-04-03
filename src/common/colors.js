@@ -11,8 +11,8 @@ colors.grey251 = { gui: '#c6c6c6', cterm: 251 }
 colors.grey250 = { gui: '#bcbcbc', cterm: 250 }
 colors.grey = { gui: '#949494', cterm: 246 }
 
-colors.grey240 = { gui: '#585858', cterm: 240 }
 colors.grey243 = { gui: '#767676', cterm: 243 }
+colors.grey240 = { gui: '#585858', cterm: 240 }
 colors.grey238 = { gui: '#444444', cterm: 238 }
 
 colors.black237 = { gui: '#3a3a3a', cterm: 237 }
@@ -21,9 +21,11 @@ colors.black235 = { gui: '#272822', cterm: 235 }
 
 colors.black = { gui: '#1c1c1c', cterm: 234 }
 colors.black234 = { gui: '#1c1c1c', cterm: 234 }
+colors.black233 = { gui: '#121212', cterm: 233 }
 colors.black232 = { gui: '#080808', cterm: 232 }
 
 colors.pink = { gui: '#ff0087', cterm: 198 }
+// colors.pink = { gui: '#ff005f', cterm: 197 }
 colors.lightgreen = { gui: '#d7ffaf', cterm: 193 }
 colors.green = { gui: '#AFD700', cterm: 148 }
 colors.darkgreen = { gui: '#5f875f', cterm: 65 }
