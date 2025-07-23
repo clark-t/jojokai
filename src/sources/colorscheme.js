@@ -32,6 +32,7 @@ const highlight = {
   ErrorMsg: { fg: c.red, term: 'standout' },
   WarningMsg: { term: 'reverse' },
   VertSplit: { fg: c.black233, bg: c.black233 },
+  WinSeparator: { fg: c.black233, bg: c.black233 },
   LineNr: { fg: c.grey240, bg: c.black },
   CursorLineNr: { fg: c.orange, bg: c.black235 },
   SignColumn: { bg: c.black },

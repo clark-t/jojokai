@@ -27,6 +27,7 @@ hi MoreMsg guifg=#767676 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#FF5F5F ctermfg=203 guibg=NONE ctermbg=NONE gui=standout cterm=standout
 hi WarningMsg guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi VertSplit guifg=#121212 ctermfg=233 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi WinSeparator guifg=#121212 ctermfg=233 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#585858 ctermfg=240 guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FF8700 ctermfg=208 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
