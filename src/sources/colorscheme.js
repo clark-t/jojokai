@@ -21,7 +21,7 @@ const highlight = {
 
   StatusLineNC: { fg: c.black, bg: c.black },
   StatusLine: { fg: c.black233, bg: c.black233 },
-  TabLine: { fg: c.white, bg: c.black233 },
+  TabLine: { fg: c.grey240, bg: c.black233 },
 
   Visual: { bg: c.black236 },
   Search: { term: 'reverse' },

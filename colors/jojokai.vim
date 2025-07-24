@@ -17,7 +17,7 @@ hi CursorLineSign guifg=NONE ctermfg=NONE guibg=#272822 ctermbg=235 gui=NONE cte
 hi NonText guifg=#1C1C1C ctermfg=234 guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#1C1C1C ctermfg=234 guibg=#1C1C1C ctermbg=234 gui=NONE cterm=NONE
 hi StatusLine guifg=#121212 ctermfg=233 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
-hi TabLine guifg=#DADADA ctermfg=253 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
+hi TabLine guifg=#585858 ctermfg=240 guibg=#121212 ctermbg=233 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi MatchParen guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
