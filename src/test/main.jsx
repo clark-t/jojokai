@@ -7,6 +7,12 @@ const Root = styled.div`
   padding: 1px;
   width: ${width}px;
 `
+
+export const fn = async (arg) => {
+  const ret = await arg
+  console.log(ret)
+}
+
 window.addEventListener('error', (e) => {
   if (isNaN(e)) {
     console.error('sad')
