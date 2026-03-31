@@ -10,7 +10,8 @@ source: ABCD
 > Hello
 
 There is a **important** word
-There is a ~~deleted~~ word
+There is a ~~delete~~ word
+There is a *italic* word
 
 ## Code
 
@@ -54,7 +55,7 @@ There is a [inline link](http://path.to/dist "link title")
 ###### Table
 
 | A | B | C | D |
-| :: | :-- | --: | --- |
+| :--: | :-- | --: | --- |
 | `a` | [b](./path.png) | c | d |
 
 

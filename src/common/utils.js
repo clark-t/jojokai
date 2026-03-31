@@ -20,7 +20,7 @@ function termstring(terms) {
   }
   let val =
     (terms || '')
-      .replace('italic', '')
+      // .replace('italic', '')
       .replace(/(^,|,$)/, '')
       .replace(',,', ',') || 'NONE'
 

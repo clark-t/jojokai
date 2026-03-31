@@ -48,7 +48,7 @@ const highlight = {
   SpecialKey: { fg: c.pink },
   Whitespace: { fg: c.pink },
   TrailingBlank: { fg: c.pink, bg: c.pink },
-  Title: { fg: c.yellow },
+  Title: { fg: c.yellow, term: 'bold' },
   Directory: { fg: c.aqua },
 
   // diff
@@ -385,9 +385,27 @@ const highlight = {
   cSpecial: { fg: c.purple },
 
   // markdown
-  markdownCode: { fg: c.aqua, format: 'italic' },
+  markdownCode: { fg: c.aqua },
   markdownListMarker: { fg: c.purple },
+  markdownOrderedListMarker: { fg: c.purple },
   markdownCodeDelimiter: { fg: c.aqua },
+  markdownUrl: { fg: c.grey243, term: 'underline' },
+  markdownBlockquote: { fg: c.purple },
+  markdownError: {},
+  markdownBold: { fg: c.pink, term: 'bold' },
+  markdownStrike: { fg: c.grey243, term: 'strikethrough' },
+  markdownItalic: { fg: c.green, term: 'italic' },
+  '@markup.strong': { fg: c.pink, term: 'bold' },
+  '@markup.strikethrough': { fg: c.grey243, term: 'strikethrough' },
+  '@markup.italic': { fg: c.green, term: 'italic' },
+  '@markup.raw.markdown_inline': { fg: c.aqua },
+  '@markup.raw.block.markdown': { fg: c.aqua },
+  '@markup.link.label.markdown_inline': { fg: c.green },
+  '@markup.link.markdown_inline': { fg: c.white },
+  '@markup.link.url.markdown_inline': { fg: c.grey243, term: 'underline' },
+  '@markup.quote.markdown': { fg: c.purple },
+  '@markup.list.markdown': { fg: c.purple },
+  '@punctuation.special.markdown': { fg: c.purple },
 
   // golang
   goBuiltins: { fg: c.purple },
