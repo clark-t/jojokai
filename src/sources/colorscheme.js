@@ -269,6 +269,7 @@ const highlight = {
   typescriptDefaultParam: { fg: c.pink },
   typescriptAliasKeyword: { fg: c.aqua },
   typescriptMethodAccessor: { fg: c.aqua },
+  typescriptParamImpl: { fg: c.orange },
   // typescriptDefault: { fg: c.pink },
   // typescriptTernaryOp: { fg: c.pink },
   // typescriptDotNotation: { fg: c.pink },

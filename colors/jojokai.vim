@@ -194,6 +194,7 @@ hi typescriptNull guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cter
 hi typescriptDefaultParam guifg=#FF0087 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptAliasKeyword guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptMethodAccessor guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptParamImpl guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxTag guifg=#FF0087 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxAttrib guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxTagName guifg=#FF0087 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

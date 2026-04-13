@@ -18,11 +18,26 @@
   const onClick = (arg: string) => {
     console.log(arg)
   }
+
+  class ABC {
+    constructor(args: any) {
+      console.log(args)
+    }
+
+    static abc(args: any) {
+      console.log(args)
+    }
+  }
   onMounted(async () => {
     arr.value = await utils.fetch('path/to/arr', {
       a: 1,
-      b: [1, 2, 3]
+      b: [1, 2, 3],
+      callback(args: any) {
+        console.log(args)
+      }
     })
+
+    new ABC({ a: 1 })
   })
 </script>
 

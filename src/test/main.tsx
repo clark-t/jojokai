@@ -107,6 +107,9 @@ export const NodeView: AFC<INodeView> = ({ className = '', style }) => {
       c: '',
       d: 123,
     },
+    dd(haha: any) {
+      console.log(haha)
+    },
     [num]: str,
     ...obj3,
   }
