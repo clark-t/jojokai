@@ -28,9 +28,9 @@ export const fn3 = async function <T extends number[]>(arg: T): Promise<void> {
   console.log(arg)
 }
 
-// const fn4 = <T extends number[]>(arg: T): void => {
-//   console.log(arg)
-// }
+const fn4 = <T extends number[]>(arg: T): void => {
+  console.log(arg)
+}
 
 window.addEventListener('error', (e: any) => {
   if (isNaN(e)) {

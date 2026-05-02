@@ -125,7 +125,7 @@ hi jsStatic guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsSuper guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsFuncArgRest guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsFuncArgs guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi jsFuncCall guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncCall guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsStorageClass guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsDocTags guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsFunction guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -161,6 +161,7 @@ hi typescriptFuncKeyword guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NO
 hi typescriptFuncTypeArrow guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncType guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptFuncCallName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncComma guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptArrowFuncArg guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi typescriptCall guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=italic cterm=italic
