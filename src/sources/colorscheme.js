@@ -187,7 +187,11 @@ const highlight = {
   jsGlobalObjects: { fg: c.purple, term: 'italic' },
   jsFuncName: { fg: c.green },
   jsThis: { fg: c.purple, term: 'italic' },
+  // jsDot: { fg: c.pink },
   jsObjectKey: { fg: c.green },
+  // jsObjectColon: { fg: c.pink },
+  // jsObjectBraces: { fg: c.pink },
+  // jsObjectSeparator: { fg: c.pink },
   jsFunctionKey: { fg: c.green },
   jsPrototype: { fg: c.aqua },
   jsExceptions: { fg: c.aqua },
@@ -213,6 +217,7 @@ const highlight = {
   // jsParen: { fg: c.white },
   // Typescript
   typescriptGlobal: { fg: c.purple, term: 'italic' },
+  // typescriptTypeBrackets: { fg: c.pink },
   typescriptBraces: { fg: c.white },
   typescriptParens: { fg: c.white },
   typescriptOperator: { fg: c.pink },
@@ -435,6 +440,8 @@ const highlight = {
 
   // lua
   luaFunction: { fg: c.aqua },
+  '@keyword.lua': { fg: c.aqua },
+  '@variable.parameter.lua': { fg: c.orange },
 }
 
 const file = `

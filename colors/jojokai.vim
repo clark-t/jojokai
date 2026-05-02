@@ -295,3 +295,5 @@ hi zshFalseCommand guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE ct
 hi zshSubstOp guifg=#FF0087 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshFunction guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFunction guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @keyword.lua guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @variable.parameter.lua guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
