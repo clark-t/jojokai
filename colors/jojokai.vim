@@ -301,4 +301,4 @@ hi @keyword.lua guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi @variable.parameter.lua guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @function.call.lua guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @function.method.call.lua guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @punctuation.bracket.lua guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @punctuation.bracket.lua guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

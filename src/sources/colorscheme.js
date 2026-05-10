@@ -448,7 +448,7 @@ const highlight = {
   '@variable.parameter.lua': { fg: c.orange },
   '@function.call.lua': { fg: c.aqua },
   '@function.method.call.lua': { fg: c.aqua },
-  '@punctuation.bracket.lua': { fg: c.purple },
+  '@punctuation.bracket.lua': { fg: c.white },
 }
 
 const file = `
