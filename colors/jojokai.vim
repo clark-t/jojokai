@@ -115,6 +115,7 @@ hi jsClassProperty guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE ct
 hi jsGlobalObjects guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsFuncName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsThis guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi jsDot guifg=#FF0087 ctermfg=198 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsObjectKey guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFunctionKey guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsPrototype guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -125,7 +126,7 @@ hi jsStatic guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsSuper guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsFuncArgRest guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsFuncArgs guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi jsFuncCall guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncCall guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsStorageClass guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsDocTags guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi jsFunction guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -161,7 +162,7 @@ hi typescriptFuncKeyword guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NO
 hi typescriptFuncTypeArrow guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncType guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptFuncCallName guifg=#AFD700 ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptFuncCallName guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptFuncComma guifg=#DADADA ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptArrowFuncArg guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi typescriptCall guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -298,3 +299,6 @@ hi zshFunction guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi luaFunction guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword.lua guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable.parameter.lua guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @function.call.lua guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @function.method.call.lua guifg=#5FD7FF ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @punctuation.bracket.lua guifg=#AF87FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

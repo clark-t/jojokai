@@ -187,7 +187,7 @@ const highlight = {
   jsGlobalObjects: { fg: c.purple, term: 'italic' },
   jsFuncName: { fg: c.green },
   jsThis: { fg: c.purple, term: 'italic' },
-  // jsDot: { fg: c.pink },
+  jsDot: { fg: c.pink },
   jsObjectKey: { fg: c.green },
   // jsObjectColon: { fg: c.pink },
   // jsObjectBraces: { fg: c.pink },
@@ -201,7 +201,7 @@ const highlight = {
   jsSuper: { fg: c.purple, term: 'italic' },
   jsFuncArgRest: { fg: c.purple, term: 'italic' },
   jsFuncArgs: { fg: c.orange, term: 'italic' },
-  jsFuncCall: { fg: c.green },
+  jsFuncCall: { fg: c.aqua },
   jsStorageClass: { fg: c.aqua, term: 'italic' },
   jsDocTags: { fg: c.aqua, term: 'italic' },
   jsFunction: { fg: c.aqua, term: 'italic' },
@@ -214,7 +214,10 @@ const highlight = {
   jsSpreadExpression: { fg: c.green },
   jsRegexpString: { fg: c.purple },
   jsExportDefault: { fg: c.pink },
-  // jsParen: { fg: c.white },
+  // jsParens: { fg: c.purple },
+  // jsFuncParens: { fg: c.purple },
+  // jsObjectBraces: { fg: c.purple },
+  // jsBrackets: { fg: c.purple },
   // Typescript
   typescriptGlobal: { fg: c.purple, term: 'italic' },
   // typescriptTypeBrackets: { fg: c.pink },
@@ -241,7 +244,7 @@ const highlight = {
   typescriptFuncType: { fg: c.orange, format: 'italic' },
   // typescriptParenExp: { fg: c.orange },
   typescriptFuncName: { fg: c.green },
-  typescriptFuncCallName: { fg: c.green },
+  typescriptFuncCallName: { fg: c.aqua },
   typescriptFuncComma: { fg: c.white },
   typescriptArrowFuncArg: { fg: c.orange, term: 'italic' },
   typescriptCall: { fg: c.orange, term: 'italic' },
@@ -443,6 +446,9 @@ const highlight = {
   luaFunction: { fg: c.aqua },
   '@keyword.lua': { fg: c.aqua },
   '@variable.parameter.lua': { fg: c.orange },
+  '@function.call.lua': { fg: c.aqua },
+  '@function.method.call.lua': { fg: c.aqua },
+  '@punctuation.bracket.lua': { fg: c.purple },
 }
 
 const file = `
